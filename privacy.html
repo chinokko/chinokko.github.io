@@ -23,8 +23,8 @@
 </ul></nav>
 </div></header>
 <main id="main"><div class="wrap">
-<h1>Privacy Policy <span lang="tr">/ Gizlilik Politikası</span></h1>
-<nav class="langswitch" aria-label="Language / Dil"><a href="#en">English</a><a href="#tr" lang="tr">Türkçe</a></nav>
+<h1>Privacy Policy</h1>
+<nav class="langswitch" aria-label="Language"><a href="#en" lang="en" hreflang="en">English</a><a href="#tr" lang="tr" hreflang="tr">Türkçe</a><a href="#de" lang="de" hreflang="de">Deutsch</a><a href="#es" lang="es" hreflang="es">Español</a><a href="#fr" lang="fr" hreflang="fr">Français</a><a href="#pt-BR" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a><a href="#it" lang="it" hreflang="it">Italiano</a><a href="#ru" lang="ru" hreflang="ru">Русский</a><a href="#ja" lang="ja" hreflang="ja">日本語</a><a href="#ko" lang="ko" hreflang="ko">한국어</a><a href="#zh-CN" lang="zh-CN" hreflang="zh-CN">中文(简体)</a><a href="#id" lang="id" hreflang="id">Bahasa Indonesia</a><a href="#vi" lang="vi" hreflang="vi">Tiếng Việt</a><a href="#ar" lang="ar" hreflang="ar">العربية</a></nav>
 
 <section class="lang" id="en" lang="en" aria-labelledby="en-h">
 <h2 id="en-h">Privacy Policy (English)</h2>
@@ -187,10 +187,1004 @@ Contact: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a
 <h3>9. Değişiklikler</h3>
 <p>Bu politika güncellenebilir; önemli değişiklikler uygulama içinde duyurulur.</p>
 </section>
+
+<section class="lang" id="de" lang="de" aria-labelledby="de-h">
+<h2 id="de-h">Datenschutzerklärung (Deutsch)</h2>
+<p class="note">Diese Übersetzung dient lediglich der Information. Bei Abweichungen zwischen den Fassungen ist die englische Fassung maßgeblich.</p>
+<p class="meta">Zuletzt aktualisiert: 27. Oktober 2026</p>
+
+<h3>Kurz gesagt</h3>
+<ul>
+<li>Es ist kein Konto erforderlich, und der Entwickler betreibt keinen Server, der Daten von Ihnen erhebt.</li>
+<li>Die App enthält kein SDK für Analysen oder Absturzberichte. Werbeeinblendungen in der kostenlosen Version sind standardmäßig eigene Bildschirme der App; sie verfolgen Sie nicht und nutzen keine Netzwerkverbindung. Google-AdMob-Anzeigen dürfen nur unter den in Abschnitt 5 genannten Bedingungen angezeigt werden: mit Einwilligung und nicht personalisiert.</li>
+<li>Die Texterkennung (OCR) erfolgt vollständig auf Ihrem Gerät.</li>
+<li>Ihre API-Schlüssel werden im iOS-Schlüsselbund gespeichert.</li>
+<li>Seitenbilder verlassen Ihr Gerät nur, wenn Sie dies für Visual AI ausdrücklich erlauben.</li>
+<li>Daten verlassen Ihr Gerät nur in den unten aufgeführten Fällen und nur an Dienste, die Sie selbst auswählen.</li>
+<li>Käufe werden von Apple abgewickelt; Zahlungs- oder Kartendaten erreichen den Entwickler nicht. Abostatus, der Zähler für tägliche Übersetzungsguthaben und der Zähler für Belohnungs-Werbeeinblendungen verbleiben auf Ihrem Gerät.</li>
+</ul>
+
+<h3>1. Daten, die auf Ihrem Gerät verbleiben</h3>
+<p>Ihre Bibliothek, Kategorien, Ihr Leseverlauf und Lesefortschritt, heruntergeladene Kapitel, Übersetzungscache und Übersetzungsspeicher, Glossar, Vokabelheft und Einstellungen werden ausschließlich auf diesem Gerät im eigenen Speicher der App abgelegt. Das Widget auf dem Home-Bildschirm liest eine Zusammenfassung dieser Daten auf dem Gerät. Übersetzungen werden nur innerhalb der App angezeigt; es werden keine übersetzten Seitendateien erzeugt.</p>
+<p>Die von Ihnen eingegebenen API-Schlüssel (DeepL, OpenAI-kompatibler Server) werden im iOS-Schlüsselbund gespeichert und sind ausschließlich an dieses Gerät gebunden: Sie werden nicht mit dem iCloud-Schlüsselbund synchronisiert, nicht auf ein anderes Gerät übertragen und nicht in die Sicherungsdatei der App aufgenommen. Schlüssel, die frühere Versionen der App zusammen mit den Einstellungen gespeichert haben, werden bei der ersten Nutzung automatisch in den Schlüsselbund verschoben und an ihrem alten Speicherort gelöscht.</p>
+<p>Es gibt keine iCloud-Synchronisierung. Sicherungsdateien werden ausschließlich von Ihnen erstellt und geteilt. Durch das Löschen der App werden alle diese Daten vom Gerät entfernt. iOS kann Schlüsselbundeinträge nach dem Löschen der App auf dem Gerät behalten; um Ihre Schlüssel dauerhaft zu entfernen, leeren Sie vor dem Löschen der App die Schlüsselfelder unter Einstellungen › Übersetzungseinstellungen. Der Berechtigungscache für chinokko Pro und der Zähler für tägliche Übersetzungsguthaben werden ausschließlich auf diesem Gerät im iOS-Schlüsselbund gespeichert und niemals irgendwohin gesendet.</p>
+
+<h3>2. Texterkennung (OCR)</h3>
+<p>Sprechblasen werden auf Ihrem Gerät mit dem Vision-Framework von Apple erkannt. Seitenbilder werden niemals zur Texterkennung an einen Server gesendet.</p>
+<p>Ausnahme: Wenn Sie unter Einstellungen › Übersetzungseinstellungen die <strong>Visual-AI-Übersetzung</strong> aktivieren, erscheint vor dem Senden der ersten Seite ein Berechtigungsbildschirm, der anzeigt, was an welchen Server gesendet wird. Ohne Ihre Erlaubnis wird kein Seitenbild gesendet; lehnen Sie ab, wird Visual AI deaktiviert und die Übersetzung erfolgt nur anhand des Textes. Wenn Sie zustimmen, werden das Seitenbild (verkleinertes JPEG) und der erkannte Text an den von Ihnen eingegebenen OpenAI-kompatiblen Server gesendet. Sie können diese Erlaubnis jederzeit unter Einstellungen › Datenschutz widerrufen; Sie werden dann beim nächsten Mal erneut gefragt.</p>
+
+<h3>3. Übersetzung</h3>
+<p>Erkannter Text wird an die Engine gesendet, die Sie unter Einstellungen › Übersetzungseinstellungen auswählen:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) – die Standard-Engine.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> – ein quelloffenes Google-Frontend; von der Community betriebene Server (z. B. lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) – mit Ihrem eigenen API-Schlüssel.</li>
+<li><strong>ChatGPT / OpenAI-kompatibler Server</strong> – standardmäßig api.openai.com oder die von Ihnen eingegebene Adresse (lokales Modell, OpenRouter, Groq usw.), mit Ihrem eigenen API-Schlüssel.</li>
+<li><strong>Apple (auf dem Gerät)</strong> – der Text verlässt Ihr Gerät nie.</li>
+</ul>
+<p><strong>Ersatzkette:</strong> Antwortet die ausgewählte Engine nicht, kann derselbe Text der Reihe nach an Google, Lingva und MyMemory gesendet werden, damit die Übersetzung nicht leer bleibt; zuletzt wird die Apple-Übersetzung auf dem Gerät versucht. Sie können dies unter Einstellungen › Datenschutz › <strong>Auf Ersatz-Engines zurückgreifen</strong> deaktivieren.</p>
+<p>Wenn Sie zum ersten Mal mit einer Engine übersetzen, die über das Internet arbeitet, erklärt ein einmaliger Hinweis, dass der Text Ihr Gerät verlässt. Unter Einstellungen › Datenschutz sehen Sie, welche Engines derzeit aktiviert sind, und können Berechtigungen sowie den Hinweis zurücksetzen.</p>
+<p>Ist die <strong>kontextbezogene Übersetzung</strong> aktiviert und wird ChatGPT/Visual AI verwendet, werden frühere Sprechblasen desselben Kapitels und deren Übersetzungen als Kontext an denselben Server gesendet. Beim Öffnen des Bildschirms <strong>Alternative Übersetzungen</strong> wird der Text zum Vergleich an mehrere Engines gesendet. KI-Funktionen wie „Zusammenfassung des vorherigen Kapitels“ und „Panel erklären“ senden den betreffenden Text ebenfalls an Ihren OpenAI-kompatiblen Server.</p>
+<p>Diese Dienste verarbeiten den Text und Verbindungsdaten (z. B. die IP-Adresse) gemäß ihren eigenen Datenschutzrichtlinien.</p>
+<p><strong>chinokko Pro:</strong> Käufe, Verlängerungen, Erstattungen und Wiederherstellungen werden über den App Store und StoreKit von Apple abgewickelt und unterliegen der Datenschutzrichtlinie von Apple. Der Entwickler hat keinen Zugriff auf Ihre Zahlungsdaten, Ihren Apple Account oder Ihren Kaufverlauf; Ihr Abostatus wird auf Ihrem Gerät anhand der signierten Transaktionsbelege von Apple überprüft, und für diese Überprüfung werden keine Daten an einen Server gesendet.</p>
+
+<h3>4. Weitere Netzwerkverbindungen</h3>
+<ul>
+<li><strong>Besuchte Websites und hinzugefügte Quellen:</strong> Anfragen gehen direkt von Ihrem Gerät an diese Websites. Cookies werden im WebKit-Speicher auf dem Gerät aufbewahrt.</li>
+<li><strong>Suche:</strong> In die Adressleiste eingegebene Suchanfragen gehen an die von Ihnen gewählte Suchmaschine (Google, Bing oder DuckDuckGo).</li>
+<li><strong>Website-Symbole:</strong> Um das Symbol einer Website anzuzeigen, wird deren Domainname an den Favicon-Dienst von Google (google.com/s2/favicons) gesendet.</li>
+<li><strong>Ersatz-Bildproxy:</strong> Kann ein Seitenbild im Reader nicht von der Website geladen werden, wird die Adresse des Bildes für einen erneuten Versuch an öffentliche Bildproxy-Server (wsrv.nl, images.weserv.nl) gesendet und das Bild von dort abgerufen.</li>
+<li><strong>Werbeblocker:</strong> Filterlisten werden wöchentlich von easylist.to und easylist-downloads.adblockplus.org heruntergeladen; dabei werden keine personenbezogenen Daten gesendet.</li>
+<li><strong>AniList:</strong> wird nur verwendet, wenn Sie Ihr Konto verbinden; Ihr Lesefortschritt wird in Ihr AniList-Konto geschrieben.</li>
+</ul>
+
+<h3>5. Analysen, Werbung und Absturzberichte</h3>
+<p>Es werden keine Nutzungsstatistiken oder Absturzberichte erhoben. Die App verwendet nicht die Werbe-ID (IDFA) und fragt keine Tracking-Erlaubnis an (App Tracking Transparency).</p>
+<p><strong>Eigene Werbeeinblendungen (Standard):</strong> Die in der kostenlosen Version angezeigten Werbeeinblendungen für chinokko Pro sind in die App integriert: Es wird kein Werbenetzwerk kontaktiert, und weder Ihre Lektüre noch personenbezogene Daten werden irgendwohin gesendet. Wie viele Belohnungs-Werbeeinblendungen Sie heute angesehen haben, wird nur auf Ihrem Gerät gespeichert, um das Tageslimit durchzusetzen.</p>
+<p><strong>Google-AdMob-Anzeigen (optional):</strong> Einige Versionen der App können anstelle der eigenen Werbeeinblendungen Anzeigen von Google AdMob (Google Ireland Limited / Google LLC) einblenden – eine Interstitial-Anzeige beim Kapitelwechsel sowie optionale Anzeigen mit Belohnung. In diesem Fall gilt:</p>
+<ul>
+<li>Bevor eine Anzeige angefordert wird, holt das Einwilligungstool von Google (User Messaging Platform) Ihre Einwilligung ein, sofern erforderlich (z. B. im EWR, im Vereinigten Königreich und in der Schweiz); kann keine Einwilligung eingeholt werden, wird keine Anzeige angefordert.</li>
+<li>Es werden ausschließlich <strong>nicht personalisierte Anzeigen</strong> angefordert: Anzeigen werden nicht auf Grundlage Ihrer Interessen oder Ihres bisherigen Verhaltens ausgerichtet, und die IDFA wird nicht verwendet.</li>
+<li>Das Google Mobile Ads SDK kann Geräte- und Verbindungsdaten (z. B. IP-Adresse, Gerätemodell und Betriebssystem, App-Version, ungefährer Standort, Interaktionen mit Anzeigen) verarbeiten, um Anzeigen auszuliefern, die Häufigkeit zu begrenzen, Betrug und Missbrauch zu verhindern und aggregierte Berichte zu erstellen. Diese Daten werden gemäß den eigenen Richtlinien von Google verarbeitet und können ins Ausland übermittelt werden: <a href="https://policies.google.com/technologies/partner-sites">Wie Google Informationen von Websites oder Apps verwendet, die Google-Dienste nutzen</a>, <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.</li>
+<li>Adressen der von Ihnen gelesenen Seiten, die von Ihnen hinzugefügten Quellen oder Websites sowie übersetzter Text werden <strong>niemals</strong> an das Werbenetzwerk weitergegeben.</li>
+<li>Anzeigen werden niemals über oder innerhalb von Manga-Seiten eingeblendet; eine Anzeige mit Belohnung startet stets nur nach Ihrer gesonderten Bestätigung, und eine Ablehnung kostet Sie niemals Guthaben.</li>
+<li>Sie können Ihre Einwilligung jederzeit in den Datenschutzoptionen der App ändern oder widerrufen. <mark class="fill">Einstellungen › Datenschutz › Werbe-Datenschutzoptionen</mark></li>
+</ul>
+<p>Von iOS erstellte Diagnoseberichte (MetricKit) verbleiben auf Ihrem Gerät und verlassen es nur, wenn Sie sie teilen. Wenn Sie in iOS „Mit App-Entwicklern teilen“ aktiviert haben, kann Apple anonyme Absturzdaten gemäß den eigenen Richtlinien von Apple an den Entwickler weiterleiten.</p>
+
+<h3>6. Face ID und Mitteilungen</h3>
+<p>Ist die App-Sperre aktiviert, erfolgt die Authentifizierung durch iOS; biometrische Daten gelangen niemals in die App. Mitteilungen werden auf dem Gerät erzeugt.</p>
+
+<h3>7. Ihre Rechte (KVKK und DSGVO)</h3>
+<p>Nach Artikel 11 des türkischen Gesetzes Nr. 6698 (KVKK) und den Artikeln 15–22 der EU-DSGVO haben Sie das Recht zu erfahren, ob Ihre Daten verarbeitet werden, sowie das Recht auf Auskunft, Berichtigung und Löschung, auf Widerspruch gegen die Verarbeitung und auf Datenübertragbarkeit. Da die meisten Ihrer Daten nur auf Ihrem Gerät existieren, können Sie sie direkt in der App oder durch Löschen der App verwalten. Bei Daten, die an Übersetzungsdienste Dritter oder an das Werbenetzwerk gesendet wurden, wenden Sie sich bitte an den jeweiligen Dienst.</p>
+<p>Sie haben zudem das Recht, Beschwerde bei der türkischen Datenschutzbehörde oder bei der Datenschutzaufsichtsbehörde in Ihrem Land einzulegen.</p>
+<p>Verantwortlicher: Mustafa Rahmi Köprücü (Einzelunternehmen)<br>
+Kontakt: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Kinder</h3>
+<p>Die App richtet sich an Nutzer ab 17 Jahren (App-Store-Altersfreigabe 17+). Nutzer unter 17 Jahren dürfen die App nur mit Erlaubnis und unter Aufsicht eines Elternteils oder Erziehungsberechtigten verwenden. Wir erheben wissentlich keine personenbezogenen Daten von Kindern; sollten Sie annehmen, dass dies geschehen ist, kontaktieren Sie uns, und die Daten werden gelöscht.</p>
+
+<h3>9. Änderungen</h3>
+<p>Diese Erklärung kann aktualisiert werden; wesentliche Änderungen werden in der App bekannt gegeben.</p>
+</section>
+
+<section class="lang" id="es" lang="es" aria-labelledby="es-h">
+<h2 id="es-h">Política de privacidad (español)</h2>
+<p class="note">Esta traducción se ofrece únicamente por comodidad. En caso de discrepancia entre las versiones, prevalecerá la versión en inglés.</p>
+<p class="meta">Última actualización: 27 de octubre de 2026</p>
+
+<h3>En resumen</h3>
+<ul>
+<li>No se necesita ninguna cuenta y el desarrollador no gestiona ningún servidor que recopile datos sobre ti.</li>
+<li>La app no contiene ningún SDK de analítica ni de informes de fallos. Las promociones de la versión gratuita son, por defecto, pantallas propias de la app; no te rastrean ni usan la red. Solo pueden mostrarse anuncios de Google AdMob en las condiciones del apartado 5: con consentimiento y sin personalizar.</li>
+<li>El reconocimiento de texto (OCR) se realiza íntegramente en tu dispositivo.</li>
+<li>Tus claves de API se guardan en el llavero de iOS.</li>
+<li>Las imágenes de las páginas solo salen de tu dispositivo si lo autorizas expresamente para Visual AI.</li>
+<li>Los datos solo salen de tu dispositivo en los casos indicados a continuación y únicamente hacia los servicios que tú elijas.</li>
+<li>Las compras las procesa Apple; ningún dato de pago ni de tarjeta llega al desarrollador. El estado de la suscripción, el contador diario de créditos de traducción y el contador de promociones con recompensa permanecen en tu dispositivo.</li>
+</ul>
+
+<h3>1. Datos que permanecen en tu dispositivo</h3>
+<p>Tu biblioteca, categorías, historial y progreso de lectura, capítulos descargados, caché y memoria de traducción, glosario, cuaderno de vocabulario y ajustes se almacenan únicamente en este dispositivo, en el almacenamiento propio de la app. El widget de la pantalla de inicio lee un resumen de estos datos en el dispositivo. Las traducciones solo se muestran dentro de la app; no se generan archivos de páginas traducidas.</p>
+<p>Las claves de API que introduces (DeepL, servidor compatible con OpenAI) se guardan en el llavero de iOS vinculadas exclusivamente a este dispositivo: no se sincronizan con el llavero de iCloud, no se transfieren a otro dispositivo y no se incluyen en el archivo de copia de seguridad de la app. Las claves que versiones anteriores de la app guardaban junto con los ajustes se trasladan automáticamente al llavero la primera vez que se usan y se eliminan de su ubicación anterior.</p>
+<p>No hay sincronización con iCloud. Los archivos de copia de seguridad los creas y compartes únicamente tú. Al eliminar la app se borran todos estos datos del dispositivo. iOS puede conservar elementos del llavero en el dispositivo tras eliminar la app; para borrar tus claves de forma definitiva, vacía los campos de clave en Ajustes › Ajustes de traducción antes de eliminar la app. La caché de derechos de chinokko Pro y el contador diario de créditos de traducción se guardan en el llavero de iOS solo en este dispositivo y nunca se envían a ninguna parte.</p>
+
+<h3>2. Reconocimiento de texto (OCR)</h3>
+<p>Los bocadillos se reconocen en tu dispositivo con el framework Vision de Apple. Las imágenes de las páginas nunca se envían a un servidor para el OCR.</p>
+<p>Excepción: si activas la <strong>traducción con Visual AI</strong> en Ajustes › Ajustes de traducción, antes de enviar la primera página aparece una pantalla de permiso que indica qué se enviará y a qué servidor. No se envía ninguna imagen de página sin tu autorización; si la rechazas, Visual AI se desactiva y la traducción continúa solo con el texto. Si la autorizas, la imagen de la página (JPEG reducido) y el texto reconocido se envían al servidor compatible con OpenAI que hayas introducido. Puedes retirar este permiso en cualquier momento en Ajustes › Privacidad; en ese caso se te volverá a preguntar la próxima vez.</p>
+
+<h3>3. Traducción</h3>
+<p>El texto reconocido se envía al motor que selecciones en Ajustes › Ajustes de traducción:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com): el motor predeterminado.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong>: una interfaz de código abierto para Google; servidores gestionados por la comunidad (p. ej., lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com): con tu propia clave de API.</li>
+<li><strong>ChatGPT / servidor compatible con OpenAI</strong>: api.openai.com por defecto, o la dirección que introduzcas (modelo local, OpenRouter, Groq, etc.), con tu propia clave de API.</li>
+<li><strong>Apple (en el dispositivo)</strong>: el texto nunca sale de tu dispositivo.</li>
+</ul>
+<p><strong>Cadena de respaldo:</strong> si el motor seleccionado no responde, el mismo texto puede enviarse a Google, Lingva y MyMemory, en ese orden, para que la traducción no quede vacía; en último lugar se intenta la traducción de Apple en el dispositivo. Puedes desactivarlo en Ajustes › Privacidad › <strong>Recurrir a motores de respaldo</strong>.</p>
+<p>La primera vez que traduces con un motor que funciona a través de internet, un aviso único explica que el texto saldrá de tu dispositivo. En Ajustes › Privacidad puedes ver qué motores están activados y retirar los permisos y el aviso.</p>
+<p>Con la <strong>traducción contextual</strong> activada y usando ChatGPT/Visual AI, los bocadillos anteriores del mismo capítulo y sus traducciones se envían como contexto al mismo servidor. Al abrir la pantalla de <strong>traducciones alternativas</strong>, el texto se envía a varios motores para compararlas. Las funciones de IA como «resumen del capítulo anterior» y «explicar viñeta» también envían el texto correspondiente a tu servidor compatible con OpenAI.</p>
+<p>Estos servicios tratan el texto y los datos de conexión (p. ej., la dirección IP) conforme a sus propias políticas de privacidad.</p>
+<p><strong>chinokko Pro:</strong> las compras, renovaciones, reembolsos y restauraciones se gestionan a través del App Store y StoreKit de Apple y están sujetos a la política de privacidad de Apple. El desarrollador no tiene acceso a tus datos de pago, a tu cuenta de Apple ni a tu historial de compras; el estado de tu suscripción se verifica en tu dispositivo mediante los registros de transacciones firmados por Apple, y no se envía ningún dato a ningún servidor para esta verificación.</p>
+
+<h3>4. Otras conexiones de red</h3>
+<ul>
+<li><strong>Sitios que visitas y fuentes que añades:</strong> las solicitudes van directamente desde tu dispositivo a esos sitios. Las cookies se guardan en el almacenamiento de WebKit del dispositivo.</li>
+<li><strong>Búsqueda:</strong> las búsquedas escritas en la barra de direcciones se envían al buscador que elijas (Google, Bing o DuckDuckGo).</li>
+<li><strong>Iconos de sitios:</strong> para mostrar el icono de un sitio, su nombre de dominio se envía al servicio de favicons de Google (google.com/s2/favicons).</li>
+<li><strong>Proxy de imágenes de respaldo:</strong> si una imagen de página no se carga desde el sitio en el lector, la dirección de la imagen se envía a servidores proxy de imágenes públicos (wsrv.nl, images.weserv.nl) para reintentarlo, y la imagen se obtiene desde allí.</li>
+<li><strong>Bloqueo de anuncios:</strong> las listas de filtros se descargan semanalmente de easylist.to y easylist-downloads.adblockplus.org; no se envía ningún dato personal.</li>
+<li><strong>AniList:</strong> solo se usa si conectas tu cuenta; tu progreso de lectura se registra en tu cuenta de AniList.</li>
+</ul>
+
+<h3>5. Analítica, anuncios e informes de fallos</h3>
+<p>No se recopilan estadísticas de uso ni informes de fallos. La app no utiliza el identificador de publicidad (IDFA) ni solicita permiso de rastreo (App Tracking Transparency).</p>
+<p><strong>Promociones propias (por defecto):</strong> las promociones de chinokko Pro que se muestran en la versión gratuita están integradas en la app: no se contacta con ninguna red publicitaria y no se envía a ninguna parte ni lo que lees ni ningún dato personal. El número de promociones con recompensa que has visto hoy se guarda solo en tu dispositivo para aplicar el límite diario.</p>
+<p><strong>Anuncios de Google AdMob (opcional):</strong> algunas versiones de la app pueden mostrar anuncios servidos por Google AdMob (Google Ireland Limited / Google LLC) en lugar de las promociones propias: un intersticial en los cambios de capítulo y anuncios opcionales con recompensa. En ese caso:</p>
+<ul>
+<li>Antes de solicitar cualquier anuncio, la herramienta de consentimiento de Google (User Messaging Platform) te pide el consentimiento cuando es obligatorio (p. ej., en el EEE, el Reino Unido y Suiza); si no puede obtenerse el consentimiento, no se solicita ningún anuncio.</li>
+<li>Solo se solicitan <strong>anuncios no personalizados</strong>: los anuncios no se segmentan según tus intereses o tu comportamiento anterior, y no se utiliza el IDFA.</li>
+<li>El Google Mobile Ads SDK puede tratar datos del dispositivo y de conexión (p. ej., dirección IP, modelo de dispositivo y sistema operativo, versión de la app, ubicación aproximada, interacciones con anuncios) para servir anuncios, limitar su frecuencia, prevenir el fraude y el abuso y elaborar informes agregados. Estos datos se tratan conforme a las políticas propias de Google y pueden transferirse al extranjero: <a href="https://policies.google.com/technologies/partner-sites">Cómo utiliza Google la información de sitios web o aplicaciones que utilizan sus servicios</a>, <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</li>
+<li>Las direcciones de las páginas que lees, las fuentes o sitios que añades y el texto traducido <strong>nunca</strong> se comparten con la red publicitaria.</li>
+<li>Los anuncios nunca se muestran sobre las páginas de manga ni dentro de ellas; un anuncio con recompensa solo comienza tras tu confirmación expresa, y rechazarlo nunca te cuesta créditos.</li>
+<li>Puedes cambiar o retirar tu consentimiento en cualquier momento en las opciones de privacidad de la app. <mark class="fill">Ajustes › Privacidad › Opciones de privacidad de anuncios</mark></li>
+</ul>
+<p>Los informes de diagnóstico generados por iOS (MetricKit) permanecen en tu dispositivo y solo salen de él si los compartes. Si activaste «Compartir con desarrolladores de apps» en iOS, Apple puede reenviar datos anónimos de fallos al desarrollador conforme a su propia política.</p>
+
+<h3>6. Face ID y notificaciones</h3>
+<p>Cuando el bloqueo de la app está activado, la autenticación la realiza iOS; los datos biométricos nunca llegan a la app. Las notificaciones se generan en el dispositivo.</p>
+
+<h3>7. Tus derechos (KVKK y RGPD)</h3>
+<p>En virtud del artículo 11 de la Ley turca n.º 6698 (KVKK) y de los artículos 15 a 22 del RGPD de la UE, tienes derecho a saber si se tratan tus datos, a solicitar información, rectificación y supresión, a oponerte al tratamiento y a la portabilidad de los datos. Dado que la mayoría de tus datos solo existen en tu dispositivo, puedes gestionarlos directamente en la app o eliminando la app. Para los datos enviados a servicios de traducción de terceros o a la red publicitaria, ponte en contacto con el servicio correspondiente.</p>
+<p>También tienes derecho a presentar una reclamación ante la Autoridad turca de Protección de Datos Personales o ante la autoridad de protección de datos de tu país.</p>
+<p>Responsable del tratamiento: Mustafa Rahmi Köprücü (empresario individual)<br>
+Contacto: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Menores</h3>
+<p>La app está destinada a usuarios de 17 años o más (clasificación por edad del App Store: 17+). Los usuarios menores de 17 años solo pueden usar la app con el permiso y la supervisión de un progenitor o tutor legal. No recopilamos a sabiendas datos personales de menores; si crees que esto ha ocurrido, ponte en contacto con nosotros y los datos se eliminarán.</p>
+
+<h3>9. Cambios</h3>
+<p>Esta política puede actualizarse; los cambios importantes se anunciarán en la app.</p>
+</section>
+
+<section class="lang" id="fr" lang="fr" aria-labelledby="fr-h">
+<h2 id="fr-h">Politique de confidentialité (français)</h2>
+<p class="note">Cette traduction est fournie à titre indicatif. En cas de divergence entre les versions, la version anglaise prévaut.</p>
+<p class="meta">Dernière mise à jour : 27 octobre 2026</p>
+
+<h3>En bref</h3>
+<ul>
+<li>Aucun compte n'est nécessaire, et le développeur n'exploite aucun serveur collectant des données vous concernant.</li>
+<li>L'app ne contient aucun SDK d'analyse ni de rapports de plantage. Les promotions de la version gratuite sont, par défaut, des écrans propres à l'app ; elles ne vous suivent pas et n'utilisent pas le réseau. Des annonces Google AdMob ne peuvent être affichées que dans les conditions prévues à la section 5 : avec consentement et non personnalisées.</li>
+<li>La reconnaissance de texte (OCR) s'effectue entièrement sur votre appareil.</li>
+<li>Vos clés API sont stockées dans le trousseau iOS.</li>
+<li>Les images des pages ne quittent votre appareil que si vous l'autorisez expressément pour Visual AI.</li>
+<li>Les données ne quittent votre appareil que dans les cas énumérés ci-dessous, et uniquement vers les services que vous choisissez.</li>
+<li>Les achats sont traités par Apple ; aucune donnée de paiement ou de carte ne parvient au développeur. Le statut de l'abonnement, le compteur quotidien de crédits de traduction et le compteur de promotions récompensées restent sur votre appareil.</li>
+</ul>
+
+<h3>1. Données qui restent sur votre appareil</h3>
+<p>Votre bibliothèque, vos catégories, votre historique et votre progression de lecture, les chapitres téléchargés, le cache et la mémoire de traduction, le glossaire, le carnet de vocabulaire et les réglages sont stockés uniquement sur cet appareil, dans l'espace de stockage propre à l'app. Le widget de l'écran d'accueil lit un résumé de ces données sur l'appareil. Les traductions sont affichées uniquement dans l'app ; aucun fichier de page traduite n'est produit.</p>
+<p>Les clés API que vous saisissez (DeepL, serveur compatible OpenAI) sont stockées dans le trousseau iOS et liées exclusivement à cet appareil : elles ne sont pas synchronisées avec le trousseau iCloud, ne sont pas transférées vers un autre appareil et ne sont pas incluses dans le fichier de sauvegarde de l'app. Les clés que les versions antérieures de l'app stockaient avec les réglages sont automatiquement déplacées vers le trousseau lors de la première utilisation et supprimées de leur ancien emplacement.</p>
+<p>Il n'y a pas de synchronisation iCloud. Les fichiers de sauvegarde sont créés et partagés uniquement par vous. La suppression de l'app efface toutes ces données de l'appareil. iOS peut conserver des éléments du trousseau sur l'appareil après la suppression de l'app ; pour effacer définitivement vos clés, videz les champs de clé dans Réglages › Réglages de traduction avant de supprimer l'app. Le cache des droits chinokko Pro et le compteur quotidien de crédits de traduction sont stockés dans le trousseau iOS sur cet appareil uniquement et ne sont jamais envoyés nulle part.</p>
+
+<h3>2. Reconnaissance de texte (OCR)</h3>
+<p>Les bulles sont reconnues sur votre appareil à l'aide du framework Vision d'Apple. Les images des pages ne sont jamais envoyées à un serveur pour l'OCR.</p>
+<p>Exception : si vous activez la <strong>traduction Visual AI</strong> dans Réglages › Réglages de traduction, un écran d'autorisation indiquant ce qui sera envoyé et à quel serveur s'affiche avant l'envoi de la première page. Aucune image de page n'est envoyée sans votre autorisation ; si vous refusez, Visual AI est désactivé et la traduction se poursuit uniquement à partir du texte. Si vous l'autorisez, l'image de la page (JPEG réduit) et le texte reconnu sont envoyés au serveur compatible OpenAI que vous avez saisi. Vous pouvez retirer cette autorisation à tout moment dans Réglages › Confidentialité ; elle vous sera alors redemandée la fois suivante.</p>
+
+<h3>3. Traduction</h3>
+<p>Le texte reconnu est envoyé au moteur que vous sélectionnez dans Réglages › Réglages de traduction :</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — le moteur par défaut.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — une interface open source pour Google ; serveurs gérés par la communauté (p. ex. lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — avec votre propre clé API.</li>
+<li><strong>ChatGPT / serveur compatible OpenAI</strong> — api.openai.com par défaut, ou l'adresse que vous saisissez (modèle local, OpenRouter, Groq, etc.), avec votre propre clé API.</li>
+<li><strong>Apple (sur l'appareil)</strong> — le texte ne quitte jamais votre appareil.</li>
+</ul>
+<p><strong>Chaîne de secours :</strong> si le moteur sélectionné ne répond pas, le même texte peut être envoyé à Google, Lingva et MyMemory, dans cet ordre, afin que la traduction ne reste pas vide ; la traduction Apple sur l'appareil est tentée en dernier. Vous pouvez désactiver cette fonction dans Réglages › Confidentialité › <strong>Recourir aux moteurs de secours</strong>.</p>
+<p>La première fois que vous traduisez avec un moteur fonctionnant via Internet, un avis unique vous explique que le texte quittera votre appareil. Dans Réglages › Confidentialité, vous pouvez voir quels moteurs sont actuellement activés et retirer les autorisations ainsi que l'avis.</p>
+<p>Lorsque la <strong>traduction contextuelle</strong> est activée et que ChatGPT/Visual AI est utilisé, les bulles précédentes du même chapitre et leurs traductions sont envoyées au même serveur à titre de contexte. L'ouverture de l'écran <strong>Traductions alternatives</strong> envoie le texte à plusieurs moteurs à des fins de comparaison. Les fonctions d'IA telles que « Résumé du chapitre précédent » et « Expliquer la case » envoient également le texte concerné à votre serveur compatible OpenAI.</p>
+<p>Ces services traitent le texte et les données de connexion (p. ex. l'adresse IP) conformément à leurs propres politiques de confidentialité.</p>
+<p><strong>chinokko Pro :</strong> les achats, renouvellements, remboursements et restaurations sont gérés via l'App Store et StoreKit d'Apple et sont soumis à la politique de confidentialité d'Apple. Le développeur n'a accès ni à vos données de paiement, ni à votre compte Apple, ni à votre historique d'achats ; le statut de votre abonnement est vérifié sur votre appareil à l'aide des enregistrements de transactions signés par Apple, et aucune donnée n'est envoyée à un serveur pour cette vérification.</p>
+
+<h3>4. Autres connexions réseau</h3>
+<ul>
+<li><strong>Sites que vous visitez et sources que vous ajoutez :</strong> les requêtes partent directement de votre appareil vers ces sites. Les cookies sont conservés dans le stockage WebKit de l'appareil.</li>
+<li><strong>Recherche :</strong> les recherches saisies dans la barre d'adresse sont envoyées au moteur de recherche de votre choix (Google, Bing ou DuckDuckGo).</li>
+<li><strong>Icônes des sites :</strong> pour afficher l'icône d'un site, son nom de domaine est envoyé au service de favicons de Google (google.com/s2/favicons).</li>
+<li><strong>Proxy d'images de secours :</strong> si une image de page ne se charge pas depuis le site dans le lecteur, l'adresse de l'image est envoyée à des serveurs proxy d'images publics (wsrv.nl, images.weserv.nl) pour une nouvelle tentative, et l'image est récupérée depuis ceux-ci.</li>
+<li><strong>Blocage des publicités :</strong> les listes de filtres sont téléchargées chaque semaine depuis easylist.to et easylist-downloads.adblockplus.org ; aucune donnée personnelle n'est envoyée.</li>
+<li><strong>AniList :</strong> utilisé uniquement si vous connectez votre compte ; votre progression de lecture est enregistrée sur votre compte AniList.</li>
+</ul>
+
+<h3>5. Analyses, publicités et rapports de plantage</h3>
+<p>Aucune statistique d'utilisation ni aucun rapport de plantage n'est collecté. L'app n'utilise pas l'identifiant publicitaire (IDFA) et ne demande pas l'autorisation de suivi (App Tracking Transparency).</p>
+<p><strong>Promotions maison (par défaut) :</strong> les promotions chinokko Pro affichées dans la version gratuite sont intégrées à l'app : aucun réseau publicitaire n'est contacté, et ni ce que vous lisez ni aucune donnée personnelle ne sont envoyés nulle part. Le nombre de promotions récompensées que vous avez regardées aujourd'hui est stocké uniquement sur votre appareil afin d'appliquer la limite quotidienne.</p>
+<p><strong>Annonces Google AdMob (facultatif) :</strong> certaines versions de l'app peuvent afficher, à la place des promotions maison, des annonces diffusées par Google AdMob (Google Ireland Limited / Google LLC) — une annonce interstitielle lors des changements de chapitre et des annonces récompensées facultatives. Dans ce cas :</p>
+<ul>
+<li>Avant toute demande d'annonce, l'outil de consentement de Google (User Messaging Platform) recueille votre consentement lorsque cela est requis (p. ex. dans l'EEE, au Royaume-Uni et en Suisse) ; si le consentement ne peut être obtenu, aucune annonce n'est demandée.</li>
+<li>Seules des <strong>annonces non personnalisées</strong> sont demandées : les annonces ne sont pas ciblées en fonction de vos centres d'intérêt ou de votre comportement passé, et l'IDFA n'est pas utilisé.</li>
+<li>Le Google Mobile Ads SDK peut traiter des données relatives à l'appareil et à la connexion (p. ex. adresse IP, modèle d'appareil et système d'exploitation, version de l'app, localisation approximative, interactions avec les annonces) afin de diffuser des annonces, d'en limiter la fréquence, de prévenir la fraude et les abus et de produire des rapports agrégés. Ces données sont traitées conformément aux propres règles de Google et peuvent être transférées à l'étranger : <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise les informations des sites ou applications qui utilisent ses services</a>, <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.</li>
+<li>Les adresses des pages que vous lisez, les sources ou sites que vous ajoutez et le texte traduit ne sont <strong>jamais</strong> partagés avec le réseau publicitaire.</li>
+<li>Les annonces ne sont jamais affichées sur les pages de manga ni à l'intérieur de celles-ci ; une annonce récompensée ne démarre jamais sans votre confirmation distincte, et un refus ne vous coûte jamais de crédits.</li>
+<li>Vous pouvez modifier ou retirer votre consentement à tout moment dans les options de confidentialité de l'app. <mark class="fill">Réglages › Confidentialité › Options de confidentialité des annonces</mark></li>
+</ul>
+<p>Les rapports de diagnostic générés par iOS (MetricKit) restent sur votre appareil et ne le quittent que si vous les partagez. Si vous avez activé « Partager avec les développeurs d'apps » dans iOS, Apple peut transmettre des données de plantage anonymes au développeur conformément à sa propre politique.</p>
+
+<h3>6. Face ID et notifications</h3>
+<p>Lorsque le verrouillage de l'app est activé, l'authentification est effectuée par iOS ; les données biométriques ne parviennent jamais à l'app. Les notifications sont générées sur l'appareil.</p>
+
+<h3>7. Vos droits (KVKK et RGPD)</h3>
+<p>En vertu de l'article 11 de la loi turque n° 6698 (KVKK) et des articles 15 à 22 du RGPD de l'UE, vous avez le droit de savoir si vos données sont traitées, de demander des informations, la rectification et l'effacement, de vous opposer au traitement et à la portabilité des données. La plupart de vos données n'existant que sur votre appareil, vous pouvez les gérer directement dans l'app ou en supprimant l'app. Pour les données envoyées à des services de traduction tiers ou au réseau publicitaire, veuillez contacter le service concerné.</p>
+<p>Vous avez également le droit d'introduire une réclamation auprès de l'Autorité turque de protection des données personnelles ou de l'autorité de protection des données de votre pays.</p>
+<p>Responsable du traitement : Mustafa Rahmi Köprücü (entreprise individuelle)<br>
+Contact : <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Enfants</h3>
+<p>L'app est destinée aux utilisateurs âgés de 17 ans et plus (classification par âge de l'App Store : 17+). Les utilisateurs de moins de 17 ans ne peuvent utiliser l'app qu'avec l'autorisation et sous la surveillance d'un parent ou d'un tuteur légal. Nous ne collectons pas sciemment de données personnelles concernant des enfants ; si vous pensez que cela s'est produit, contactez-nous et les données seront supprimées.</p>
+
+<h3>9. Modifications</h3>
+<p>Cette politique peut être mise à jour ; les modifications importantes seront annoncées dans l'app.</p>
+</section>
+
+<section class="lang" id="pt-BR" lang="pt-BR" aria-labelledby="pt-BR-h">
+<h2 id="pt-BR-h">Política de Privacidade (Português)</h2>
+<p class="note">Esta tradução é fornecida por conveniência. Em caso de divergência entre as versões, prevalece a versão em inglês.</p>
+<p class="meta">Última atualização: 27 de outubro de 2026</p>
+
+<h3>Em resumo</h3>
+<ul>
+<li>Não é necessária nenhuma conta, e o desenvolvedor não mantém nenhum servidor que colete seus dados.</li>
+<li>O app não contém nenhum SDK de análise ou de relatórios de falhas. As promoções da versão gratuita são, por padrão, telas próprias do app; elas não rastreiam você nem usam a rede. Anúncios do Google AdMob só podem ser exibidos nas condições da seção 5: com consentimento e de forma não personalizada.</li>
+<li>O reconhecimento de texto (OCR) ocorre inteiramente no seu dispositivo.</li>
+<li>Suas chaves de API são armazenadas nas Chaves do iOS (Keychain).</li>
+<li>As imagens das páginas só saem do seu dispositivo se você permitir expressamente para a IA Visual.</li>
+<li>Os dados só saem do seu dispositivo nos casos listados abaixo e apenas para os serviços que você escolher.</li>
+<li>As compras são processadas pela Apple; nenhum dado de pagamento ou de cartão chega ao desenvolvedor. O status da assinatura, o contador diário de créditos de tradução e o contador de promoções recompensadas permanecem no seu dispositivo.</li>
+</ul>
+
+<h3>1. Dados que permanecem no seu dispositivo</h3>
+<p>Sua biblioteca, categorias, histórico e progresso de leitura, capítulos baixados, cache e memória de tradução, glossário, caderno de vocabulário e configurações são armazenados somente neste dispositivo, no armazenamento próprio do app. O widget da tela de início lê um resumo desses dados no dispositivo. As traduções são exibidas apenas dentro do app; nenhum arquivo de página traduzida é gerado.</p>
+<p>As chaves de API que você insere (DeepL, servidor compatível com OpenAI) são armazenadas nas Chaves do iOS, vinculadas somente a este dispositivo: não são sincronizadas com as Chaves do iCloud, não são transferidas para outro dispositivo e não são incluídas no arquivo de backup do app. As chaves que versões anteriores do app armazenavam junto com as configurações são movidas automaticamente para as Chaves no primeiro uso e removidas do local antigo.</p>
+<p>Não há sincronização com o iCloud. Os arquivos de backup são criados e compartilhados somente por você. Excluir o app remove todos esses dados do dispositivo. O iOS pode manter itens das Chaves no dispositivo após a exclusão do app; para remover suas chaves permanentemente, limpe os campos de chave em Ajustes › Configurações de tradução antes de excluir o app. O cache do direito de acesso ao chinokko Pro e o contador diário de créditos de tradução são armazenados nas Chaves do iOS somente neste dispositivo e nunca são enviados a lugar algum.</p>
+
+<h3>2. Reconhecimento de texto (OCR)</h3>
+<p>Os balões de fala são reconhecidos no seu dispositivo com o framework Vision da Apple. As imagens das páginas nunca são enviadas a um servidor para OCR.</p>
+<p>Exceção: se você ativar a <strong>tradução com IA Visual</strong> em Ajustes › Configurações de tradução, uma tela de permissão mostrando o que será enviado e para qual servidor aparece antes do envio da primeira página. Nenhuma imagem de página é enviada sem a sua permissão; se você recusar, a IA Visual é desativada e a tradução continua apenas com texto. Se você permitir, a imagem da página (JPEG reduzido) e o texto reconhecido são enviados ao servidor compatível com OpenAI que você informou. Você pode revogar essa permissão a qualquer momento em Ajustes › Privacidade; ela será solicitada novamente na próxima vez.</p>
+
+<h3>3. Tradução</h3>
+<p>O texto reconhecido é enviado ao mecanismo que você seleciona em Ajustes › Configurações de tradução:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — o mecanismo padrão.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — uma interface de código aberto para o Google; servidores mantidos pela comunidade (por exemplo, lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — com sua própria chave de API.</li>
+<li><strong>ChatGPT / servidor compatível com OpenAI</strong> — api.openai.com por padrão, ou o endereço que você informar (modelo local, OpenRouter, Groq etc.), com sua própria chave de API.</li>
+<li><strong>Apple (no dispositivo)</strong> — o texto nunca sai do seu dispositivo.</li>
+</ul>
+<p><strong>Cadeia de fallback:</strong> se o mecanismo selecionado não responder, o mesmo texto pode ser enviado ao Google, ao Lingva e ao MyMemory, nessa ordem, para que a tradução não fique vazia; a tradução da Apple no dispositivo é tentada por último. Você pode desativar isso em Ajustes › Privacidade › <strong>Recorrer a mecanismos reserva</strong>.</p>
+<p>Na primeira vez que você traduz com um mecanismo que funciona pela internet, um aviso único explica que o texto sairá do seu dispositivo. Em Ajustes › Privacidade, você pode ver quais mecanismos estão ativados no momento e revogar as permissões e o aviso.</p>
+<p>Com a <strong>tradução contextual</strong> ativada e o ChatGPT/IA Visual em uso, balões anteriores do mesmo capítulo e suas traduções são enviados ao mesmo servidor como contexto. Abrir a tela de <strong>traduções alternativas</strong> envia o texto a vários mecanismos para comparação. Recursos de IA como "resumo do capítulo anterior" e "explicar painel" também enviam o texto relevante ao seu servidor compatível com OpenAI.</p>
+<p>Esses serviços processam o texto e os dados de conexão (por exemplo, endereço IP) de acordo com suas próprias políticas de privacidade.</p>
+<p><strong>chinokko Pro:</strong> Compras, renovações, reembolsos e restaurações são tratados pela App Store e pelo StoreKit da Apple e estão sujeitos à política de privacidade da Apple. O desenvolvedor não tem acesso aos seus dados de pagamento, à sua Conta Apple nem ao seu histórico de compras; o status da sua assinatura é verificado no seu dispositivo por meio dos registros de transação assinados pela Apple, e nenhum dado é enviado a servidor algum para essa verificação.</p>
+
+<h3>4. Outras conexões de rede</h3>
+<ul>
+<li><strong>Sites que você visita e fontes que você adiciona:</strong> as solicitações vão diretamente do seu dispositivo para esses sites. Os cookies são mantidos no armazenamento do WebKit no dispositivo.</li>
+<li><strong>Pesquisa:</strong> as pesquisas digitadas na barra de endereços vão para o mecanismo de busca que você escolher (Google, Bing ou DuckDuckGo).</li>
+<li><strong>Ícones de sites:</strong> para exibir o ícone de um site, o nome de domínio dele é enviado ao serviço de favicons do Google (google.com/s2/favicons).</li>
+<li><strong>Proxy de imagens de reserva:</strong> se a imagem de uma página não carregar a partir do site no leitor, o endereço da imagem é enviado a servidores proxy de imagens públicos (wsrv.nl, images.weserv.nl) para uma nova tentativa, e a imagem é obtida a partir deles.</li>
+<li><strong>Bloqueio de anúncios:</strong> as listas de filtros são baixadas semanalmente de easylist.to e easylist-downloads.adblockplus.org; nenhum dado pessoal é enviado.</li>
+<li><strong>AniList:</strong> usado somente se você conectar sua conta; seu progresso de leitura é gravado na sua conta do AniList.</li>
+</ul>
+
+<h3>5. Análises, anúncios e relatórios de falhas</h3>
+<p>Nenhuma estatística de uso ou relatório de falhas é coletado. O app não usa o identificador de publicidade (IDFA) e não solicita permissão de rastreamento (Transparência no Rastreamento de Apps).</p>
+<p><strong>Promoções próprias (padrão):</strong> As promoções do chinokko Pro exibidas na versão gratuita são integradas ao app: nenhuma rede de anúncios é contatada, e nem o que você lê nem quaisquer dados pessoais são enviados a lugar algum. A quantidade de promoções recompensadas que você assistiu hoje é armazenada somente no seu dispositivo, para aplicar o limite diário.</p>
+<p><strong>Anúncios do Google AdMob (opcional):</strong> Algumas versões do app podem exibir anúncios veiculados pelo Google AdMob (Google Ireland Limited / Google LLC) em vez das promoções próprias — um intersticial nas transições de capítulo e anúncios recompensados opcionais. Nesse caso:</p>
+<ul>
+<li>Antes de qualquer anúncio ser solicitado, a ferramenta de consentimento do Google (User Messaging Platform) pede seu consentimento quando exigido (por exemplo, no EEE, no Reino Unido e na Suíça); se não for possível obter o consentimento, nenhum anúncio é solicitado.</li>
+<li>Somente <strong>anúncios não personalizados</strong> são solicitados: os anúncios não são direcionados com base nos seus interesses ou comportamento anterior, e o IDFA não é usado.</li>
+<li>O Google Mobile Ads SDK pode processar dados do dispositivo e de conexão (por exemplo, endereço IP, modelo do dispositivo e sistema operacional, versão do app, localização aproximada, interações com anúncios) para veicular anúncios, limitar a frequência, prevenir fraudes e abusos e gerar relatórios agregados. Esses dados são processados de acordo com as políticas do próprio Google e podem ser transferidos para o exterior: <a href="https://policies.google.com/technologies/partner-sites">Como o Google usa informações de sites ou apps que utilizam nossos serviços</a>, <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</li>
+<li>Os endereços das páginas que você lê, as fontes ou sites que você adiciona e os textos traduzidos <strong>nunca</strong> são compartilhados com a rede de anúncios.</li>
+<li>Os anúncios nunca são exibidos sobre ou dentro das páginas de mangá; um anúncio recompensado só começa com a sua confirmação separada, e recusar nunca custa nenhum crédito.</li>
+<li>Você pode alterar ou revogar seu consentimento a qualquer momento nas opções de privacidade do app. <mark class="fill">Ajustes › Privacidade › Opções de privacidade de anúncios</mark></li>
+</ul>
+<p>Os relatórios de diagnóstico criados pelo iOS (MetricKit) permanecem no seu dispositivo e só saem dele se você os compartilhar. Se você ativou "Compartilhar com Desenvolvedores de Apps" no iOS, a Apple pode encaminhar dados anônimos de falhas ao desenvolvedor, de acordo com a política da própria Apple.</p>
+
+<h3>6. Face ID e notificações</h3>
+<p>Quando o bloqueio do app está ativado, a autenticação é realizada pelo iOS; os dados biométricos nunca chegam ao app. As notificações são geradas no dispositivo.</p>
+
+<h3>7. Seus direitos (KVKK e GDPR)</h3>
+<p>Nos termos do Artigo 11 da Lei turca nº 6698 (KVKK) e dos Artigos 15 a 22 do GDPR da UE, você tem o direito de saber se seus dados são tratados, de solicitar informações, retificação e eliminação, de se opor ao tratamento e à portabilidade dos dados. Como a maior parte dos seus dados existe somente no seu dispositivo, você pode gerenciá-los diretamente no app ou excluindo o app. Para dados enviados a serviços de tradução de terceiros ou à rede de anúncios, entre em contato com o serviço correspondente.</p>
+<p>Você também tem o direito de apresentar uma reclamação à Autoridade de Proteção de Dados Pessoais da Turquia ou à autoridade de proteção de dados do seu país.</p>
+<p>Controlador dos dados: Mustafa Rahmi Köprücü (empresário individual)<br>
+Contato: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Crianças</h3>
+<p>O app é destinado a usuários com 17 anos ou mais (classificação etária 17+ na App Store). Usuários com menos de 17 anos só podem usar o app com a permissão e a supervisão de um dos pais ou responsável legal. Não coletamos intencionalmente dados pessoais de crianças; se você acredita que isso ocorreu, entre em contato conosco e os dados serão excluídos.</p>
+
+<h3>9. Alterações</h3>
+<p>Esta política pode ser atualizada; alterações significativas serão anunciadas no app.</p>
+</section>
+
+<section class="lang" id="it" lang="it" aria-labelledby="it-h">
+<h2 id="it-h">Informativa sulla privacy (Italiano)</h2>
+<p class="note">Questa traduzione è fornita per comodità. In caso di discrepanze tra le versioni, prevale la versione inglese.</p>
+<p class="meta">Ultimo aggiornamento: 27 ottobre 2026</p>
+
+<h3>In breve</h3>
+<ul>
+<li>Non è richiesto alcun account e lo sviluppatore non gestisce alcun server che raccolga i tuoi dati.</li>
+<li>L'app non contiene SDK di analisi o di segnalazione degli arresti anomali. Le promozioni nella versione gratuita sono, per impostazione predefinita, schermate proprie dell'app; non ti tracciano e non usano la rete. Gli annunci di Google AdMob possono essere mostrati solo alle condizioni della sezione 5: con consenso e non personalizzati.</li>
+<li>Il riconoscimento del testo (OCR) avviene interamente sul tuo dispositivo.</li>
+<li>Le tue chiavi API sono conservate nel Portachiavi di iOS.</li>
+<li>Le immagini delle pagine lasciano il tuo dispositivo solo se lo consenti espressamente per l'IA visiva.</li>
+<li>I dati lasciano il tuo dispositivo solo nei casi elencati di seguito e solo verso i servizi che scegli.</li>
+<li>Gli acquisti sono elaborati da Apple; nessun dato di pagamento o della carta raggiunge lo sviluppatore. Lo stato dell'abbonamento, il contatore giornaliero dei crediti di traduzione e il contatore delle promozioni con ricompensa restano sul tuo dispositivo.</li>
+</ul>
+
+<h3>1. Dati che restano sul tuo dispositivo</h3>
+<p>La tua libreria, le categorie, la cronologia e i progressi di lettura, i capitoli scaricati, la cache e la memoria di traduzione, il glossario, il quaderno dei vocaboli e le impostazioni sono conservati solo su questo dispositivo, nello spazio di archiviazione proprio dell'app. Il widget della schermata Home legge un riepilogo di questi dati sul dispositivo. Le traduzioni sono visualizzate solo all'interno dell'app; non vengono generati file di pagine tradotte.</p>
+<p>Le chiavi API che inserisci (DeepL, server compatibile con OpenAI) sono conservate nel Portachiavi di iOS, vincolate solo a questo dispositivo: non vengono sincronizzate con il Portachiavi iCloud, non vengono trasferite su un altro dispositivo e non sono incluse nel file di backup dell'app. Le chiavi che le versioni precedenti dell'app memorizzavano insieme alle impostazioni vengono spostate automaticamente nel Portachiavi al primo utilizzo e rimosse dalla posizione precedente.</p>
+<p>Non è presente alcuna sincronizzazione iCloud. I file di backup sono creati e condivisi solo da te. Eliminando l'app, tutti questi dati vengono rimossi dal dispositivo. iOS può conservare gli elementi del Portachiavi sul dispositivo dopo l'eliminazione dell'app; per rimuovere definitivamente le tue chiavi, svuota i campi delle chiavi in Impostazioni › Impostazioni di traduzione prima di eliminare l'app. La cache del diritto di accesso a chinokko Pro e il contatore giornaliero dei crediti di traduzione sono conservati nel Portachiavi di iOS solo su questo dispositivo e non vengono mai inviati altrove.</p>
+
+<h3>2. Riconoscimento del testo (OCR)</h3>
+<p>I fumetti vengono riconosciuti sul tuo dispositivo con il framework Vision di Apple. Le immagini delle pagine non vengono mai inviate a un server per l'OCR.</p>
+<p>Eccezione: se attivi la <strong>traduzione con IA visiva</strong> in Impostazioni › Impostazioni di traduzione, prima dell'invio della prima pagina compare una schermata di autorizzazione che mostra cosa verrà inviato e a quale server. Nessuna immagine di pagina viene inviata senza la tua autorizzazione; se rifiuti, l'IA visiva viene disattivata e la traduzione prosegue solo con il testo. Se acconsenti, l'immagine della pagina (JPEG ridimensionato) e il testo riconosciuto vengono inviati al server compatibile con OpenAI che hai indicato. Puoi revocare questa autorizzazione in qualsiasi momento in Impostazioni › Privacy; ti verrà quindi richiesta di nuovo la volta successiva.</p>
+
+<h3>3. Traduzione</h3>
+<p>Il testo riconosciuto viene inviato al motore che selezioni in Impostazioni › Impostazioni di traduzione:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — il motore predefinito.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — un'interfaccia open source per Google; server gestiti dalla comunità (ad es. lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — con la tua chiave API.</li>
+<li><strong>ChatGPT / server compatibile con OpenAI</strong> — api.openai.com per impostazione predefinita, oppure l'indirizzo che inserisci (modello locale, OpenRouter, Groq, ecc.), con la tua chiave API.</li>
+<li><strong>Apple (sul dispositivo)</strong> — il testo non lascia mai il tuo dispositivo.</li>
+</ul>
+<p><strong>Catena di riserva:</strong> se il motore selezionato non risponde, lo stesso testo può essere inviato a Google, Lingva e MyMemory, in quest'ordine, affinché la traduzione non resti vuota; la traduzione Apple sul dispositivo viene tentata per ultima. Puoi disattivare questa funzione in Impostazioni › Privacy › <strong>Ricorri ai motori di riserva</strong>.</p>
+<p>La prima volta che traduci con un motore che funziona tramite Internet, un avviso una tantum spiega che il testo lascerà il tuo dispositivo. In Impostazioni › Privacy puoi vedere quali motori sono attualmente attivati e revocare le autorizzazioni e l'avviso.</p>
+<p>Con la <strong>traduzione contestuale</strong> attiva e ChatGPT/IA visiva in uso, i fumetti precedenti dello stesso capitolo e le relative traduzioni vengono inviati allo stesso server come contesto. L'apertura della schermata delle <strong>traduzioni alternative</strong> invia il testo a più motori per il confronto. Anche le funzioni IA come "riassunto del capitolo precedente" e "spiega la vignetta" inviano il testo pertinente al tuo server compatibile con OpenAI.</p>
+<p>Questi servizi trattano il testo e i dati di connessione (ad es. l'indirizzo IP) in base alle proprie informative sulla privacy.</p>
+<p><strong>chinokko Pro:</strong> Acquisti, rinnovi, rimborsi e ripristini sono gestiti tramite l'App Store e StoreKit di Apple e sono soggetti all'informativa sulla privacy di Apple. Lo sviluppatore non ha accesso ai tuoi dati di pagamento, al tuo Account Apple né alla cronologia degli acquisti; lo stato del tuo abbonamento viene verificato sul tuo dispositivo tramite i registri delle transazioni firmati da Apple e nessun dato viene inviato ad alcun server per questa verifica.</p>
+
+<h3>4. Altre connessioni di rete</h3>
+<ul>
+<li><strong>Siti che visiti e fonti che aggiungi:</strong> le richieste vanno direttamente dal tuo dispositivo a tali siti. I cookie sono conservati nello spazio di archiviazione WebKit sul dispositivo.</li>
+<li><strong>Ricerca:</strong> le ricerche digitate nella barra degli indirizzi vengono inviate al motore di ricerca che scegli (Google, Bing o DuckDuckGo).</li>
+<li><strong>Icone dei siti:</strong> per mostrare l'icona di un sito, il suo nome di dominio viene inviato al servizio favicon di Google (google.com/s2/favicons).</li>
+<li><strong>Proxy immagini di riserva:</strong> se nel lettore l'immagine di una pagina non si carica dal sito, l'indirizzo dell'immagine viene inviato a server proxy di immagini pubblici (wsrv.nl, images.weserv.nl) per riprovare, e l'immagine viene recuperata da lì.</li>
+<li><strong>Blocco della pubblicità:</strong> gli elenchi di filtri vengono scaricati settimanalmente da easylist.to ed easylist-downloads.adblockplus.org; non vengono inviati dati personali.</li>
+<li><strong>AniList:</strong> utilizzato solo se colleghi il tuo account; i tuoi progressi di lettura vengono registrati nel tuo account AniList.</li>
+</ul>
+
+<h3>5. Analisi, pubblicità e segnalazioni di arresti anomali</h3>
+<p>Non vengono raccolte statistiche di utilizzo né segnalazioni di arresti anomali. L'app non utilizza l'identificativo pubblicitario (IDFA) e non richiede l'autorizzazione al tracciamento (App Tracking Transparency).</p>
+<p><strong>Promozioni interne (predefinite):</strong> Le promozioni di chinokko Pro mostrate nella versione gratuita sono integrate nell'app: nessuna rete pubblicitaria viene contattata e né ciò che leggi né alcun dato personale vengono inviati altrove. Il numero di promozioni con ricompensa che hai guardato oggi viene memorizzato solo sul tuo dispositivo per applicare il limite giornaliero.</p>
+<p><strong>Annunci Google AdMob (facoltativi):</strong> Alcune versioni dell'app possono mostrare, al posto delle promozioni interne, annunci forniti da Google AdMob (Google Ireland Limited / Google LLC): un interstitial nei passaggi tra capitoli e annunci con ricompensa facoltativi. In tal caso:</p>
+<ul>
+<li>Prima che venga richiesto qualsiasi annuncio, lo strumento di consenso di Google (User Messaging Platform) chiede il tuo consenso ove richiesto (ad es. nel SEE, nel Regno Unito e in Svizzera); se non è possibile ottenere il consenso, nessun annuncio viene richiesto.</li>
+<li>Vengono richiesti solo <strong>annunci non personalizzati</strong>: gli annunci non sono mirati in base ai tuoi interessi o al tuo comportamento passato e l'IDFA non viene utilizzato.</li>
+<li>Il Google Mobile Ads SDK può trattare dati del dispositivo e di connessione (ad es. indirizzo IP, modello del dispositivo e sistema operativo, versione dell'app, posizione approssimativa, interazioni con gli annunci) per pubblicare annunci, limitarne la frequenza, prevenire frodi e abusi e produrre report aggregati. Questi dati sono trattati secondo le politiche di Google e possono essere trasferiti all'estero: <a href="https://policies.google.com/technologies/partner-sites">In che modo Google utilizza le informazioni provenienti da siti o app che utilizzano i suoi servizi</a>, <a href="https://policies.google.com/privacy">Norme sulla privacy di Google</a>.</li>
+<li>Gli indirizzi delle pagine che leggi, le fonti o i siti che aggiungi e il testo tradotto non vengono <strong>mai</strong> condivisi con la rete pubblicitaria.</li>
+<li>Gli annunci non vengono mai mostrati sopra o all'interno delle pagine dei manga; un annuncio con ricompensa si avvia sempre solo dopo una tua conferma separata e rifiutare non ti costa mai alcun credito.</li>
+<li>Puoi modificare o revocare il tuo consenso in qualsiasi momento nelle opzioni sulla privacy dell'app. <mark class="fill">Impostazioni › Privacy › Opzioni privacy annunci</mark></li>
+</ul>
+<p>I report diagnostici creati da iOS (MetricKit) restano sul tuo dispositivo e lo lasciano solo se li condividi. Se hai attivato "Condividi con gli sviluppatori di app" in iOS, Apple può inoltrare dati anonimi sugli arresti anomali allo sviluppatore secondo le proprie politiche.</p>
+
+<h3>6. Face ID e notifiche</h3>
+<p>Quando il blocco dell'app è attivo, l'autenticazione viene eseguita da iOS; i dati biometrici non raggiungono mai l'app. Le notifiche vengono generate sul dispositivo.</p>
+
+<h3>7. I tuoi diritti (KVKK e GDPR)</h3>
+<p>Ai sensi dell'articolo 11 della legge turca n. 6698 (KVKK) e degli articoli da 15 a 22 del GDPR dell'UE, hai il diritto di sapere se i tuoi dati sono trattati, di richiedere informazioni, la rettifica e la cancellazione, di opporti al trattamento e alla portabilità dei dati. Poiché la maggior parte dei tuoi dati esiste solo sul tuo dispositivo, puoi gestirli direttamente nell'app o eliminando l'app. Per i dati inviati a servizi di traduzione di terzi o alla rete pubblicitaria, contatta il servizio interessato.</p>
+<p>Hai inoltre il diritto di proporre reclamo all'Autorità turca per la protezione dei dati personali o all'autorità per la protezione dei dati del tuo paese.</p>
+<p>Titolare del trattamento: Mustafa Rahmi Köprücü (ditta individuale)<br>
+Contatto: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Minori</h3>
+<p>L'app è destinata a utenti di età pari o superiore a 17 anni (classificazione per età App Store 17+). Gli utenti di età inferiore a 17 anni possono utilizzare l'app solo con l'autorizzazione e sotto la supervisione di un genitore o di un tutore legale. Non raccogliamo consapevolmente dati personali di minori; se ritieni che ciò sia avvenuto, contattaci e i dati verranno eliminati.</p>
+
+<h3>9. Modifiche</h3>
+<p>La presente informativa può essere aggiornata; le modifiche significative saranno comunicate nell'app.</p>
+</section>
+
+<section class="lang" id="ru" lang="ru" aria-labelledby="ru-h">
+<h2 id="ru-h">Политика конфиденциальности (русский)</h2>
+<p class="note">Этот перевод предоставлен для удобства. В случае расхождений между версиями преимущественную силу имеет английская версия.</p>
+<p class="meta">Последнее обновление: 27 октября 2026 г.</p>
+
+<h3>Кратко</h3>
+<ul>
+<li>Учётная запись не требуется, и у разработчика нет сервера, собирающего ваши данные.</li>
+<li>Приложение не содержит SDK для аналитики или отчётов о сбоях. Промоматериалы в бесплатной версии по умолчанию — это собственные экраны приложения; они не отслеживают вас и не используют сеть. Реклама Google AdMob может показываться только на условиях раздела 5: с согласия и без персонализации.</li>
+<li>Распознавание текста (OCR) полностью происходит на вашем устройстве.</li>
+<li>Ваши API-ключи хранятся в связке ключей iOS (Keychain).</li>
+<li>Изображения страниц покидают ваше устройство, только если вы явно разрешите это для визуального ИИ.</li>
+<li>Данные покидают ваше устройство только в перечисленных ниже случаях и только в выбранные вами сервисы.</li>
+<li>Покупки обрабатываются Apple; никакие платёжные данные или данные карты не попадают к разработчику. Статус подписки, ежедневный счётчик кредитов перевода и счётчик промо с вознаграждением остаются на вашем устройстве.</li>
+</ul>
+
+<h3>1. Данные, которые остаются на вашем устройстве</h3>
+<p>Ваша библиотека, категории, история и прогресс чтения, загруженные главы, кэш и память переводов, глоссарий, словарная тетрадь и настройки хранятся только на этом устройстве, в собственном хранилище приложения. Виджет на экране «Домой» считывает сводку этих данных на устройстве. Переводы отображаются только внутри приложения; файлы переведённых страниц не создаются.</p>
+<p>Вводимые вами API-ключи (DeepL, сервер, совместимый с OpenAI) хранятся в связке ключей iOS и привязаны только к этому устройству: они не синхронизируются со связкой ключей iCloud, не переносятся на другое устройство и не включаются в файл резервной копии приложения. Ключи, которые предыдущие версии приложения хранили вместе с настройками, при первом использовании автоматически переносятся в связку ключей и удаляются из прежнего места.</p>
+<p>Синхронизация через iCloud отсутствует. Файлы резервных копий создаются и передаются только вами. При удалении приложения все эти данные удаляются с устройства. iOS может сохранять элементы связки ключей на устройстве после удаления приложения; чтобы окончательно удалить ключи, очистите поля ключей в разделе «Настройки › Настройки перевода» перед удалением приложения. Кэш права доступа к chinokko Pro и ежедневный счётчик кредитов перевода хранятся в связке ключей iOS только на этом устройстве и никогда никуда не отправляются.</p>
+
+<h3>2. Распознавание текста (OCR)</h3>
+<p>Речевые облачка распознаются на вашем устройстве с помощью фреймворка Vision от Apple. Изображения страниц никогда не отправляются на сервер для OCR.</p>
+<p>Исключение: если вы включите <strong>перевод с визуальным ИИ</strong> в разделе «Настройки › Настройки перевода», перед отправкой первой страницы появится экран разрешения, на котором указано, что и на какой сервер будет отправлено. Без вашего разрешения ни одно изображение страницы не отправляется; если вы откажетесь, визуальный ИИ отключается, и перевод продолжается только по тексту. Если вы разрешите, изображение страницы (уменьшенный JPEG) и распознанный текст отправляются на указанный вами сервер, совместимый с OpenAI. Вы можете в любой момент отозвать это разрешение в разделе «Настройки › Конфиденциальность»; в следующий раз запрос появится снова.</p>
+
+<h3>3. Перевод</h3>
+<p>Распознанный текст отправляется в движок, выбранный вами в разделе «Настройки › Настройки перевода»:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — движок по умолчанию.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — интерфейс с открытым исходным кодом для Google; серверы, поддерживаемые сообществом (например, lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — с вашим собственным API-ключом.</li>
+<li><strong>ChatGPT / сервер, совместимый с OpenAI</strong> — по умолчанию api.openai.com или указанный вами адрес (локальная модель, OpenRouter, Groq и т. д.), с вашим собственным API-ключом.</li>
+<li><strong>Apple (на устройстве)</strong> — текст никогда не покидает ваше устройство.</li>
+</ul>
+<p><strong>Цепочка резервных движков:</strong> если выбранный движок не отвечает, тот же текст может быть отправлен в Google, Lingva и MyMemory в указанном порядке, чтобы перевод не остался пустым; перевод Apple на устройстве пробуется последним. Это можно отключить в разделе «Настройки › Конфиденциальность › <strong>Использовать резервные движки</strong>».</p>
+<p>При первом переводе с помощью движка, работающего через интернет, однократное уведомление сообщает, что текст покинет ваше устройство. В разделе «Настройки › Конфиденциальность» можно увидеть, какие движки сейчас включены, а также отозвать разрешения и уведомление.</p>
+<p>Если включён <strong>контекстный перевод</strong> и используется ChatGPT/визуальный ИИ, предыдущие облачка той же главы и их переводы отправляются на тот же сервер в качестве контекста. При открытии экрана <strong>альтернативных переводов</strong> текст отправляется в несколько движков для сравнения. Функции ИИ, такие как «краткое содержание предыдущей главы» и «объяснить панель», также отправляют соответствующий текст на ваш сервер, совместимый с OpenAI.</p>
+<p>Эти сервисы обрабатывают текст и данные соединения (например, IP-адрес) в соответствии со своими политиками конфиденциальности.</p>
+<p><strong>chinokko Pro:</strong> Покупки, продления, возвраты и восстановление покупок обрабатываются через App Store и StoreKit от Apple и регулируются политикой конфиденциальности Apple. Разработчик не имеет доступа к вашим платёжным данным, Аккаунту Apple или истории покупок; статус вашей подписки проверяется на вашем устройстве с помощью подписанных Apple записей о транзакциях, и для этой проверки никакие данные ни на какой сервер не отправляются.</p>
+
+<h3>4. Другие сетевые подключения</h3>
+<ul>
+<li><strong>Посещаемые вами сайты и добавленные источники:</strong> запросы идут напрямую с вашего устройства на эти сайты. Файлы cookie хранятся в хранилище WebKit на устройстве.</li>
+<li><strong>Поиск:</strong> запросы, введённые в адресную строку, отправляются в выбранную вами поисковую систему (Google, Bing или DuckDuckGo).</li>
+<li><strong>Значки сайтов:</strong> чтобы показать значок сайта, его доменное имя отправляется в сервис favicon от Google (google.com/s2/favicons).</li>
+<li><strong>Резервный прокси для изображений:</strong> если изображение страницы в режиме чтения не загружается с сайта, адрес изображения отправляется на публичные прокси-серверы изображений (wsrv.nl, images.weserv.nl) для повторной попытки, и изображение загружается оттуда.</li>
+<li><strong>Блокировка рекламы:</strong> списки фильтров загружаются еженедельно с easylist.to и easylist-downloads.adblockplus.org; персональные данные не отправляются.</li>
+<li><strong>AniList:</strong> используется, только если вы подключите свою учётную запись; ваш прогресс чтения записывается в вашу учётную запись AniList.</li>
+</ul>
+
+<h3>5. Аналитика, реклама и отчёты о сбоях</h3>
+<p>Статистика использования и отчёты о сбоях не собираются. Приложение не использует рекламный идентификатор (IDFA) и не запрашивает разрешение на отслеживание (App Tracking Transparency).</p>
+<p><strong>Собственные промо (по умолчанию):</strong> Промо chinokko Pro, показываемые в бесплатной версии, встроены в приложение: никакие рекламные сети не задействуются, и ни то, что вы читаете, ни какие-либо персональные данные никуда не отправляются. Количество промо с вознаграждением, просмотренных вами сегодня, хранится только на вашем устройстве для соблюдения дневного лимита.</p>
+<p><strong>Реклама Google AdMob (необязательно):</strong> Некоторые версии приложения могут вместо собственных промо показывать рекламу, предоставляемую Google AdMob (Google Ireland Limited / Google LLC), — межстраничную рекламу при переходе между главами и необязательную рекламу с вознаграждением. В этом случае:</p>
+<ul>
+<li>Прежде чем будет запрошено какое-либо объявление, инструмент получения согласия Google (User Messaging Platform) запрашивает ваше согласие там, где это требуется (например, в ЕЭЗ, Великобритании и Швейцарии); если согласие получить не удаётся, реклама не запрашивается.</li>
+<li>Запрашивается только <strong>неперсонализированная реклама</strong>: объявления не таргетируются на основе ваших интересов или прошлого поведения, и IDFA не используется.</li>
+<li>Google Mobile Ads SDK может обрабатывать данные устройства и соединения (например, IP-адрес, модель устройства и ОС, версию приложения, приблизительное местоположение, взаимодействие с рекламой) для показа рекламы, ограничения частоты показов, предотвращения мошенничества и злоупотреблений, а также формирования агрегированных отчётов. Эти данные обрабатываются в соответствии с собственными правилами Google и могут передаваться за рубеж: <a href="https://policies.google.com/technologies/partner-sites">Как Google использует информацию с сайтов и из приложений, которые используют сервисы Google</a>, <a href="https://policies.google.com/privacy">Политика конфиденциальности Google</a>.</li>
+<li>Адреса читаемых вами страниц, добавленные вами источники или сайты и переведённый текст <strong>никогда</strong> не передаются рекламной сети.</li>
+<li>Реклама никогда не показывается поверх страниц манги или внутри них; реклама с вознаграждением всегда запускается только после вашего отдельного подтверждения, а отказ никогда не стоит вам кредитов.</li>
+<li>Вы можете в любой момент изменить или отозвать своё согласие в настройках конфиденциальности приложения. <mark class="fill">Настройки › Конфиденциальность › Параметры конфиденциальности рекламы</mark></li>
+</ul>
+<p>Диагностические отчёты, создаваемые iOS (MetricKit), остаются на вашем устройстве и покидают его, только если вы ими поделитесь. Если вы включили в iOS параметр «Делиться с разработчиками приложений», Apple может передавать разработчику анонимные данные о сбоях в соответствии с собственной политикой Apple.</p>
+
+<h3>6. Face ID и уведомления</h3>
+<p>Когда включена блокировка приложения, аутентификацию выполняет iOS; биометрические данные никогда не попадают в приложение. Уведомления формируются на устройстве.</p>
+
+<h3>7. Ваши права (KVKK и GDPR)</h3>
+<p>В соответствии со статьёй 11 Закона Турции № 6698 (KVKK) и статьями 15–22 Общего регламента ЕС по защите данных (GDPR) вы имеете право знать, обрабатываются ли ваши данные, запрашивать информацию, исправление и удаление данных, возражать против обработки, а также право на переносимость данных. Поскольку большая часть ваших данных существует только на вашем устройстве, вы можете управлять ими непосредственно в приложении или удалив приложение. По вопросам данных, отправленных сторонним сервисам перевода или рекламной сети, обращайтесь в соответствующий сервис.</p>
+<p>Вы также имеете право подать жалобу в Управление по защите персональных данных Турции или в орган по защите данных вашей страны.</p>
+<p>Оператор данных: Mustafa Rahmi Köprücü (индивидуальный предприниматель)<br>
+Контакт: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Дети</h3>
+<p>Приложение предназначено для пользователей в возрасте 17 лет и старше (возрастной рейтинг App Store 17+). Пользователи младше 17 лет могут пользоваться приложением только с разрешения и под присмотром родителя или законного представителя. Мы сознательно не собираем персональные данные детей; если вы считаете, что это произошло, свяжитесь с нами, и данные будут удалены.</p>
+
+<h3>9. Изменения</h3>
+<p>Настоящая политика может обновляться; о существенных изменениях будет сообщено в приложении.</p>
+</section>
+
+<section class="lang" id="ja" lang="ja" aria-labelledby="ja-h">
+<h2 id="ja-h">プライバシーポリシー（日本語）</h2>
+<p class="note">この翻訳は便宜のために提供されています。各版の間に相違がある場合は、英語版が優先されます。</p>
+<p class="meta">最終更新日：2026年10月27日</p>
+
+<h3>概要</h3>
+<ul>
+<li>アカウントは不要で、開発者はお客様からデータを収集するサーバーを運用していません。</li>
+<li>アプリには分析用 SDK やクラッシュレポート用 SDK は含まれていません。無料版のプロモーションは、初期設定ではアプリ独自の画面であり、お客様を追跡することもネットワークを使用することもありません。Google AdMob 広告は、第5条に定める条件（同意があり、かつパーソナライズされていない場合）に限り表示されることがあります。</li>
+<li>文字認識（OCR）はすべてデバイス上で行われます。</li>
+<li>お客様の API キーは iOS キーチェーンに保存されます。</li>
+<li>ページ画像がデバイスの外に送信されるのは、ビジュアル AI のためにお客様が明示的に許可した場合に限られます。</li>
+<li>データがデバイスの外に送信されるのは以下に記載する場合に限られ、送信先はお客様が選択したサービスのみです。</li>
+<li>購入は Apple によって処理され、支払い情報やカード情報が開発者に届くことはありません。サブスクリプションの状態、1日あたりの翻訳クレジットのカウンター、リワード型プロモーションのカウンターはデバイス上に保持されます。</li>
+</ul>
+
+<h3>1. デバイス上に保持されるデータ</h3>
+<p>ライブラリ、カテゴリ、閲覧履歴と進捗、ダウンロードしたチャプター、翻訳キャッシュと翻訳メモリ、用語集、単語帳および設定は、このデバイス上のアプリ専用ストレージにのみ保存されます。ホーム画面のウィジェットは、デバイス上でこれらのデータの概要を読み取ります。翻訳はアプリ内でのみ表示され、翻訳済みのページファイルが作成されることはありません。</p>
+<p>お客様が入力した API キー（DeepL、OpenAI 互換サーバー）は、このデバイスにのみ紐付けられた形で iOS キーチェーンに保存されます。iCloud キーチェーンとは同期されず、他のデバイスへ転送されず、アプリのバックアップファイルにも含まれません。以前のバージョンのアプリが設定とともに保存していたキーは、初回使用時に自動的にキーチェーンへ移され、元の場所から削除されます。</p>
+<p>iCloud 同期はありません。バックアップファイルはお客様ご自身によってのみ作成・共有されます。アプリを削除すると、これらのデータはすべてデバイスから削除されます。iOS はアプリ削除後もキーチェーン項目をデバイス上に保持することがあります。キーを完全に削除するには、アプリを削除する前に「設定 › 翻訳設定」でキーの欄を消去してください。chinokko Pro の利用権キャッシュと1日あたりの翻訳クレジットのカウンターは、このデバイス上の iOS キーチェーンにのみ保存され、どこにも送信されることはありません。</p>
+
+<h3>2. 文字認識（OCR）</h3>
+<p>吹き出しは Apple の Vision フレームワークを使用してデバイス上で認識されます。OCR のためにページ画像がサーバーへ送信されることはありません。</p>
+<p>例外：「設定 › 翻訳設定」で<strong>ビジュアル AI 翻訳</strong>をオンにした場合、最初のページが送信される前に、何がどのサーバーへ送信されるかを示す許可画面が表示されます。お客様が許可しない限り、ページ画像は送信されません。拒否した場合、ビジュアル AI はオフになり、翻訳はテキストのみで続行されます。許可した場合、ページ画像（縮小した JPEG）と認識されたテキストが、お客様が入力した OpenAI 互換サーバーへ送信されます。この許可は「設定 › プライバシー」でいつでも撤回でき、その場合は次回再び確認されます。</p>
+
+<h3>3. 翻訳</h3>
+<p>認識されたテキストは、「設定 › 翻訳設定」で選択したエンジンへ送信されます。</p>
+<ul>
+<li><strong>Google</strong>（translate.googleapis.com）— 初期設定のエンジン。</li>
+<li><strong>Microsoft</strong>（Bing Translator、bing.com）。</li>
+<li><strong>Lingva</strong> — オープンソースの Google フロントエンド。コミュニティが運営するサーバー（例：lingva.ml）。</li>
+<li><strong>MyMemory</strong>（api.mymemory.translated.net）。</li>
+<li><strong>DeepL</strong>（api.deepl.com）— お客様ご自身の API キーを使用。</li>
+<li><strong>ChatGPT / OpenAI 互換サーバー</strong> — 初期設定では api.openai.com、またはお客様が入力したアドレス（ローカルモデル、OpenRouter、Groq など）。お客様ご自身の API キーを使用。</li>
+<li><strong>Apple（デバイス上）</strong> — テキストがデバイスの外に出ることはありません。</li>
+</ul>
+<p><strong>フォールバックチェーン：</strong>選択したエンジンが応答しない場合、翻訳が空にならないよう、同じテキストが Google、Lingva、MyMemory の順に送信されることがあります。最後に Apple のデバイス上翻訳が試されます。この機能は「設定 › プライバシー › <strong>予備エンジンにフォールバック</strong>」でオフにできます。</p>
+<p>インターネット経由で動作するエンジンで初めて翻訳する際、テキストがデバイスの外に送信されることを説明する通知が一度だけ表示されます。「設定 › プライバシー」では、現在有効になっているエンジンを確認し、許可や通知を撤回できます。</p>
+<p><strong>文脈翻訳</strong>がオンで ChatGPT／ビジュアル AI を使用している場合、同じチャプター内の前の吹き出しとその翻訳が、文脈として同じサーバーへ送信されます。<strong>別の翻訳候補</strong>画面を開くと、比較のためにテキストが複数のエンジンへ送信されます。「前のチャプターの要約」や「コマの解説」などの AI 機能も、該当するテキストをお客様の OpenAI 互換サーバーへ送信します。</p>
+<p>これらのサービスは、それぞれのプライバシーポリシーに基づいてテキストおよび接続データ（例：IP アドレス）を処理します。</p>
+<p><strong>chinokko Pro：</strong>購入、更新、返金および復元は Apple の App Store と StoreKit を通じて処理され、Apple のプライバシーポリシーが適用されます。開発者はお客様の支払い情報、Apple アカウントまたは購入履歴にアクセスできません。サブスクリプションの状態は、Apple の署名付き取引記録を用いてデバイス上で検証され、この検証のためにデータがサーバーへ送信されることはありません。</p>
+
+<h3>4. その他のネットワーク接続</h3>
+<ul>
+<li><strong>お客様が訪問するサイトおよび追加するソース：</strong>リクエストはお客様のデバイスからそれらのサイトへ直接送信されます。Cookie はデバイス上の WebKit ストレージに保持されます。</li>
+<li><strong>検索：</strong>アドレスバーに入力した検索語は、お客様が選択した検索エンジン（Google、Bing または DuckDuckGo）へ送信されます。</li>
+<li><strong>サイトアイコン：</strong>サイトのアイコンを表示するため、そのドメイン名が Google のファビコンサービス（google.com/s2/favicons）へ送信されます。</li>
+<li><strong>画像フォールバックプロキシ：</strong>リーダーでページ画像がサイトから読み込めなかった場合、再試行のため画像のアドレスが公開画像プロキシサーバー（wsrv.nl、images.weserv.nl）へ送信され、画像はそこから取得されます。</li>
+<li><strong>広告ブロック：</strong>フィルタリストは easylist.to および easylist-downloads.adblockplus.org から毎週ダウンロードされます。個人データは送信されません。</li>
+<li><strong>AniList：</strong>お客様がアカウントを連携した場合にのみ使用され、読書の進捗がお客様の AniList アカウントに書き込まれます。</li>
+</ul>
+
+<h3>5. 分析、広告およびクラッシュレポート</h3>
+<p>利用統計やクラッシュレポートは収集されません。アプリは広告識別子（IDFA）を使用せず、トラッキングの許可（App Tracking Transparency）も求めません。</p>
+<p><strong>自社プロモーション（初期設定）：</strong>無料版で表示される chinokko Pro のプロモーションはアプリに組み込まれています。広告ネットワークへの接続は行われず、お客様が読んでいるものや個人データがどこかへ送信されることもありません。1日の上限を適用するため、その日に視聴したリワード型プロモーションの回数のみがデバイス上に保存されます。</p>
+<p><strong>Google AdMob 広告（任意）：</strong>アプリの一部のバージョンでは、自社プロモーションの代わりに Google AdMob（Google Ireland Limited / Google LLC）が配信する広告（チャプター切り替え時のインタースティシャル広告および任意のリワード広告）が表示されることがあります。その場合：</p>
+<ul>
+<li>広告がリクエストされる前に、必要とされる地域（例：EEA、英国、スイス）では Google の同意ツール（User Messaging Platform）がお客様の同意を求めます。同意が得られない場合、広告はリクエストされません。</li>
+<li>リクエストされるのは<strong>パーソナライズされていない広告</strong>のみです。広告はお客様の興味や過去の行動に基づいてターゲティングされず、IDFA も使用されません。</li>
+<li>Google Mobile Ads SDK は、広告の配信、表示頻度の制限、不正および悪用の防止、集計レポートの作成のために、デバイスおよび接続データ（例：IP アドレス、デバイスのモデルと OS、アプリのバージョン、おおまかな位置情報、広告とのやり取り）を処理することがあります。これらのデータは Google 独自のポリシーに基づいて処理され、国外へ移転されることがあります：<a href="https://policies.google.com/technologies/partner-sites">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a>、<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>。</li>
+<li>お客様が読んでいるページのアドレス、追加したソースやサイト、および翻訳されたテキストが広告ネットワークと共有されることは<strong>一切ありません</strong>。</li>
+<li>広告がマンガのページの上や内部に表示されることはありません。リワード広告は必ずお客様の個別の確認があって初めて開始され、断ってもクレジットを失うことはありません。</li>
+<li>同意はアプリのプライバシーオプションでいつでも変更または撤回できます。<mark class="fill">設定 › プライバシー › 広告のプライバシーオプション</mark></li>
+</ul>
+<p>iOS が作成する診断レポート（MetricKit）はデバイス上に保持され、お客様が共有した場合にのみ外部へ送信されます。iOS で「App デベロッパと共有」を有効にしている場合、Apple は Apple 独自のポリシーに基づき、匿名のクラッシュデータを開発者に転送することがあります。</p>
+
+<h3>6. Face ID と通知</h3>
+<p>アプリロックがオンの場合、認証は iOS によって行われ、生体データがアプリに届くことはありません。通知はデバイス上で生成されます。</p>
+
+<h3>7. お客様の権利（KVKK および GDPR）</h3>
+<p>トルコ個人データ保護法（法律第6698号、KVKK）第11条および EU 一般データ保護規則（GDPR）第15条〜第22条に基づき、お客様は、自己のデータが処理されているかどうかを知る権利、情報の提供、訂正および消去を求める権利、処理に異議を唱える権利、ならびにデータポータビリティの権利を有します。お客様のデータの大部分はお客様のデバイス上にのみ存在するため、アプリ内で直接、またはアプリを削除することにより管理できます。第三者の翻訳サービスまたは広告ネットワークに送信されたデータについては、該当するサービスにお問い合わせください。</p>
+<p>また、お客様はトルコ個人データ保護機関またはお住まいの国のデータ保護機関に苦情を申し立てる権利を有します。</p>
+<p>データ管理者：Mustafa Rahmi Köprücü（個人事業主）<br>
+連絡先：<a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. 子ども</h3>
+<p>本アプリは17歳以上のユーザーを対象としています（App Store の年齢区分 17+）。17歳未満のユーザーは、親または法定後見人の許可と監督のもとでのみ本アプリを使用できます。当方は子どもから故意に個人データを収集することはありません。そのようなことが起きたと思われる場合はご連絡ください。データを削除いたします。</p>
+
+<h3>9. 変更</h3>
+<p>本ポリシーは更新されることがあります。重要な変更はアプリ内でお知らせします。</p>
+</section>
+
+<section class="lang" id="ko" lang="ko" aria-labelledby="ko-h">
+<h2 id="ko-h">개인정보 처리방침 (한국어)</h2>
+<p class="note">이 번역본은 편의를 위해 제공됩니다. 버전 간에 차이가 있는 경우 영어 버전이 우선합니다.</p>
+<p class="meta">최종 업데이트: 2026년 10월 27일</p>
+
+<h3>요약</h3>
+<ul>
+<li>계정이 필요 없으며, 개발자는 사용자로부터 데이터를 수집하는 서버를 운영하지 않습니다.</li>
+<li>앱에는 분석 또는 충돌 보고 SDK가 포함되어 있지 않습니다. 무료 버전의 프로모션은 기본적으로 앱 자체 화면이며, 사용자를 추적하거나 네트워크를 사용하지 않습니다. Google AdMob 광고는 제5조에 명시된 조건, 즉 동의가 있고 개인 맞춤화되지 않은 경우에만 표시될 수 있습니다.</li>
+<li>텍스트 인식(OCR)은 전적으로 기기에서 이루어집니다.</li>
+<li>사용자의 API 키는 iOS 키체인에 저장됩니다.</li>
+<li>페이지 이미지는 사용자가 비주얼 AI를 위해 명시적으로 허용한 경우에만 기기 밖으로 전송됩니다.</li>
+<li>데이터는 아래에 열거된 경우에만, 그리고 사용자가 선택한 서비스로만 기기 밖으로 전송됩니다.</li>
+<li>구매는 Apple이 처리하며, 결제 또는 카드 정보는 개발자에게 전달되지 않습니다. 구독 상태, 일일 번역 크레딧 카운터 및 보상형 프로모션 카운터는 기기에 보관됩니다.</li>
+</ul>
+
+<h3>1. 기기에 보관되는 데이터</h3>
+<p>라이브러리, 카테고리, 읽기 기록 및 진행 상황, 다운로드한 챕터, 번역 캐시 및 번역 메모리, 용어집, 단어장 및 설정은 이 기기의 앱 전용 저장 공간에만 저장됩니다. 홈 화면 위젯은 기기에서 이 데이터의 요약을 읽습니다. 번역은 앱 내에서만 표시되며, 번역된 페이지 파일은 생성되지 않습니다.</p>
+<p>사용자가 입력한 API 키(DeepL, OpenAI 호환 서버)는 이 기기에만 연결된 상태로 iOS 키체인에 저장됩니다. iCloud 키체인과 동기화되지 않고, 다른 기기로 전송되지 않으며, 앱의 백업 파일에도 포함되지 않습니다. 이전 버전의 앱이 설정과 함께 저장했던 키는 처음 사용할 때 자동으로 키체인으로 옮겨지고 이전 위치에서 삭제됩니다.</p>
+<p>iCloud 동기화는 없습니다. 백업 파일은 사용자만이 생성하고 공유합니다. 앱을 삭제하면 이 모든 데이터가 기기에서 삭제됩니다. iOS는 앱이 삭제된 후에도 키체인 항목을 기기에 보관할 수 있으므로, 키를 영구적으로 삭제하려면 앱을 삭제하기 전에 설정 › 번역 설정에서 키 입력란을 비우십시오. chinokko Pro 권한 캐시와 일일 번역 크레딧 카운터는 이 기기의 iOS 키체인에만 저장되며 어디로도 전송되지 않습니다.</p>
+
+<h3>2. 텍스트 인식(OCR)</h3>
+<p>말풍선은 Apple의 Vision 프레임워크를 사용하여 기기에서 인식됩니다. OCR을 위해 페이지 이미지가 서버로 전송되는 일은 없습니다.</p>
+<p>예외: 설정 › 번역 설정에서 <strong>비주얼 AI 번역</strong>을 켜면, 첫 페이지가 전송되기 전에 무엇이 어느 서버로 전송되는지 보여 주는 권한 화면이 표시됩니다. 사용자가 허용하지 않는 한 페이지 이미지는 전송되지 않으며, 거부하면 비주얼 AI가 꺼지고 텍스트만으로 번역이 계속됩니다. 허용하면 페이지 이미지(축소된 JPEG)와 인식된 텍스트가 사용자가 입력한 OpenAI 호환 서버로 전송됩니다. 이 권한은 설정 › 개인정보 보호에서 언제든지 철회할 수 있으며, 그 경우 다음 번에 다시 확인을 요청합니다.</p>
+
+<h3>3. 번역</h3>
+<p>인식된 텍스트는 설정 › 번역 설정에서 선택한 엔진으로 전송됩니다.</p>
+<ul>
+<li><strong>Google</strong>(translate.googleapis.com) — 기본 엔진.</li>
+<li><strong>Microsoft</strong>(Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — 오픈 소스 Google 프런트엔드, 커뮤니티가 운영하는 서버(예: lingva.ml).</li>
+<li><strong>MyMemory</strong>(api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong>(api.deepl.com) — 사용자 본인의 API 키 사용.</li>
+<li><strong>ChatGPT / OpenAI 호환 서버</strong> — 기본값은 api.openai.com이며, 또는 사용자가 입력한 주소(로컬 모델, OpenRouter, Groq 등), 사용자 본인의 API 키 사용.</li>
+<li><strong>Apple(기기 내)</strong> — 텍스트가 기기 밖으로 나가지 않습니다.</li>
+</ul>
+<p><strong>대체 체인:</strong> 선택한 엔진이 응답하지 않으면 번역이 비어 있지 않도록 동일한 텍스트가 Google, Lingva, MyMemory 순으로 전송될 수 있으며, 마지막으로 Apple의 기기 내 번역이 시도됩니다. 이 기능은 설정 › 개인정보 보호 › <strong>백업 엔진으로 대체</strong>에서 끌 수 있습니다.</p>
+<p>인터넷을 통해 작동하는 엔진으로 처음 번역할 때, 텍스트가 기기 밖으로 전송된다는 안내가 한 번 표시됩니다. 설정 › 개인정보 보호에서 현재 활성화된 엔진을 확인하고 권한과 안내를 철회할 수 있습니다.</p>
+<p><strong>문맥 번역</strong>이 켜져 있고 ChatGPT/비주얼 AI를 사용하는 경우, 같은 챕터의 이전 말풍선과 그 번역이 문맥으로서 같은 서버로 전송됩니다. <strong>대체 번역</strong> 화면을 열면 비교를 위해 텍스트가 여러 엔진으로 전송됩니다. "이전 챕터 요약", "패널 설명"과 같은 AI 기능도 해당 텍스트를 사용자의 OpenAI 호환 서버로 전송합니다.</p>
+<p>이러한 서비스는 각자의 개인정보 처리방침에 따라 텍스트와 연결 데이터(예: IP 주소)를 처리합니다.</p>
+<p><strong>chinokko Pro:</strong> 구매, 갱신, 환불 및 복원은 Apple의 App Store와 StoreKit을 통해 처리되며 Apple의 개인정보 처리방침이 적용됩니다. 개발자는 사용자의 결제 정보, Apple 계정 또는 구매 내역에 접근할 수 없습니다. 구독 상태는 Apple의 서명된 거래 기록을 사용하여 기기에서 확인되며, 이 확인을 위해 어떠한 데이터도 서버로 전송되지 않습니다.</p>
+
+<h3>4. 기타 네트워크 연결</h3>
+<ul>
+<li><strong>방문하는 사이트 및 추가하는 소스:</strong> 요청은 사용자의 기기에서 해당 사이트로 직접 전송됩니다. 쿠키는 기기의 WebKit 저장소에 보관됩니다.</li>
+<li><strong>검색:</strong> 주소 표시줄에 입력한 검색어는 사용자가 선택한 검색 엔진(Google, Bing 또는 DuckDuckGo)으로 전송됩니다.</li>
+<li><strong>사이트 아이콘:</strong> 사이트의 아이콘을 표시하기 위해 해당 도메인 이름이 Google의 파비콘 서비스(google.com/s2/favicons)로 전송됩니다.</li>
+<li><strong>이미지 대체 프록시:</strong> 리더에서 페이지 이미지를 사이트로부터 불러오지 못한 경우, 재시도를 위해 이미지 주소가 공개 이미지 프록시 서버(wsrv.nl, images.weserv.nl)로 전송되고 이미지는 그곳에서 가져옵니다.</li>
+<li><strong>광고 차단:</strong> 필터 목록은 easylist.to 및 easylist-downloads.adblockplus.org에서 매주 다운로드되며, 개인정보는 전송되지 않습니다.</li>
+<li><strong>AniList:</strong> 사용자가 계정을 연결한 경우에만 사용되며, 읽기 진행 상황이 사용자의 AniList 계정에 기록됩니다.</li>
+</ul>
+
+<h3>5. 분석, 광고 및 충돌 보고</h3>
+<p>사용 통계나 충돌 보고는 수집되지 않습니다. 앱은 광고 식별자(IDFA)를 사용하지 않으며 추적 권한(App Tracking Transparency)을 요청하지 않습니다.</p>
+<p><strong>자체 프로모션(기본값):</strong> 무료 버전에 표시되는 chinokko Pro 프로모션은 앱에 내장되어 있습니다. 광고 네트워크에 연결하지 않으며, 사용자가 읽는 내용이나 개인정보가 어디로도 전송되지 않습니다. 일일 한도를 적용하기 위해 그날 시청한 보상형 프로모션 횟수만 기기에 저장됩니다.</p>
+<p><strong>Google AdMob 광고(선택):</strong> 앱의 일부 버전에서는 자체 프로모션 대신 Google AdMob(Google Ireland Limited / Google LLC)이 제공하는 광고, 즉 챕터 전환 시 전면 광고와 선택적 보상형 광고가 표시될 수 있습니다. 이 경우:</p>
+<ul>
+<li>광고를 요청하기 전에, 필요한 지역(예: EEA, 영국, 스위스)에서는 Google의 동의 도구(User Messaging Platform)가 사용자의 동의를 요청합니다. 동의를 얻지 못하면 광고는 요청되지 않습니다.</li>
+<li><strong>개인 맞춤화되지 않은 광고</strong>만 요청됩니다. 광고는 사용자의 관심사나 과거 행동을 기반으로 타기팅되지 않으며, IDFA는 사용되지 않습니다.</li>
+<li>Google Mobile Ads SDK는 광고 제공, 노출 빈도 제한, 사기 및 남용 방지, 집계 보고서 작성을 위해 기기 및 연결 데이터(예: IP 주소, 기기 모델 및 OS, 앱 버전, 대략적인 위치, 광고 상호작용)를 처리할 수 있습니다. 이 데이터는 Google 자체 정책에 따라 처리되며 국외로 이전될 수 있습니다: <a href="https://policies.google.com/technologies/partner-sites">Google 서비스를 사용하는 사이트 또는 앱에서 수집한 정보를 Google이 사용하는 방법</a>, <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>.</li>
+<li>사용자가 읽는 페이지의 주소, 추가한 소스나 사이트, 번역된 텍스트는 광고 네트워크와 <strong>절대</strong> 공유되지 않습니다.</li>
+<li>광고는 만화 페이지 위나 내부에 절대 표시되지 않습니다. 보상형 광고는 항상 사용자의 별도 확인이 있어야만 시작되며, 거절해도 크레딧을 잃지 않습니다.</li>
+<li>동의는 앱의 개인정보 보호 옵션에서 언제든지 변경하거나 철회할 수 있습니다. <mark class="fill">설정 › 개인정보 보호 › 광고 개인정보 보호 옵션</mark></li>
+</ul>
+<p>iOS가 생성하는 진단 보고서(MetricKit)는 기기에 보관되며, 사용자가 공유하는 경우에만 기기 밖으로 전송됩니다. iOS에서 "앱 개발자와 공유"를 활성화한 경우, Apple은 자체 정책에 따라 익명의 충돌 데이터를 개발자에게 전달할 수 있습니다.</p>
+
+<h3>6. Face ID 및 알림</h3>
+<p>앱 잠금이 켜져 있으면 인증은 iOS가 수행하며, 생체 정보는 앱에 전달되지 않습니다. 알림은 기기에서 생성됩니다.</p>
+
+<h3>7. 사용자의 권리(KVKK 및 GDPR)</h3>
+<p>튀르키예 개인정보보호법(법률 제6698호, KVKK) 제11조 및 EU GDPR 제15조~제22조에 따라 사용자는 자신의 데이터가 처리되는지 여부를 알 권리, 정보 제공·정정·삭제를 요청할 권리, 처리에 이의를 제기할 권리 및 데이터 이동권을 가집니다. 사용자 데이터의 대부분은 사용자의 기기에만 존재하므로, 앱에서 직접 또는 앱을 삭제하여 관리할 수 있습니다. 제3자 번역 서비스나 광고 네트워크로 전송된 데이터에 대해서는 해당 서비스에 문의하십시오.</p>
+<p>또한 사용자는 튀르키예 개인정보보호청 또는 거주 국가의 개인정보 보호 감독기관에 불만을 제기할 권리가 있습니다.</p>
+<p>개인정보 처리자: Mustafa Rahmi Köprücü(개인사업자)<br>
+연락처: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. 아동</h3>
+<p>이 앱은 17세 이상 사용자를 대상으로 합니다(App Store 연령 등급 17+). 17세 미만 사용자는 부모 또는 법정 보호자의 허락과 감독하에서만 앱을 사용할 수 있습니다. 당사는 아동으로부터 고의로 개인정보를 수집하지 않으며, 그러한 일이 발생했다고 생각되면 연락해 주십시오. 해당 데이터를 삭제하겠습니다.</p>
+
+<h3>9. 변경</h3>
+<p>본 방침은 업데이트될 수 있으며, 중요한 변경 사항은 앱에서 공지됩니다.</p>
+</section>
+
+<section class="lang" id="zh-CN" lang="zh-CN" aria-labelledby="zh-CN-h">
+<h2 id="zh-CN-h">隐私政策（简体中文）</h2>
+<p class="note">本译文仅为方便阅读而提供。如各版本之间存在任何差异，以英文版本为准。</p>
+<p class="meta">最后更新：2026年10月27日</p>
+
+<h3>概要</h3>
+<ul>
+<li>无需账户，开发者不运营任何向您收集数据的服务器。</li>
+<li>本应用不包含任何分析或崩溃报告 SDK。免费版中的推广内容默认是应用自身的页面，不会追踪您，也不使用网络。仅在第 5 条所述条件下（经您同意且为非个性化广告），才可能展示 Google AdMob 广告。</li>
+<li>文字识别（OCR）完全在您的设备上进行。</li>
+<li>您的 API 密钥存储在 iOS 钥匙串中。</li>
+<li>仅当您为视觉 AI 明确授权时，页面图像才会离开您的设备。</li>
+<li>数据仅在下列情形下离开您的设备，且仅发送至您所选择的服务。</li>
+<li>购买由 Apple 处理；任何支付或银行卡数据均不会到达开发者。订阅状态、每日翻译额度计数器和激励推广计数器保留在您的设备上。</li>
+</ul>
+
+<h3>1. 保留在您设备上的数据</h3>
+<p>您的书库、分类、阅读历史与进度、已下载章节、翻译缓存与翻译记忆、术语表、生词本和设置仅存储在本设备上应用自身的存储空间中。主屏幕小组件在设备上读取这些数据的摘要。译文仅在应用内显示，不会生成任何已翻译的页面文件。</p>
+<p>您输入的 API 密钥（DeepL、OpenAI 兼容服务器）存储在 iOS 钥匙串中，并仅绑定于本设备：不会同步至 iCloud 钥匙串，不会传输到其他设备，也不会包含在应用的备份文件中。应用早期版本随设置一同存储的密钥，会在首次使用时自动迁移至钥匙串，并从原位置删除。</p>
+<p>本应用不提供 iCloud 同步。备份文件仅由您本人创建和分享。删除应用将从设备中移除上述所有数据。iOS 可能在应用删除后仍在设备上保留钥匙串项目；如需永久删除您的密钥，请在删除应用前于"设置 › 翻译设置"中清空密钥栏。chinokko Pro 权益缓存和每日翻译额度计数器仅存储在本设备的 iOS 钥匙串中，绝不会被发送至任何地方。</p>
+
+<h3>2. 文字识别（OCR）</h3>
+<p>对话气泡通过 Apple 的 Vision 框架在您的设备上识别。页面图像绝不会为 OCR 目的被发送至服务器。</p>
+<p>例外情形：如果您在"设置 › 翻译设置"中开启<strong>视觉 AI 翻译</strong>，在发送第一页之前会显示一个授权页面，说明将发送哪些内容以及发送至哪个服务器。未经您允许，不会发送任何页面图像；如果您拒绝，视觉 AI 将被关闭，翻译将仅基于文本继续进行。如果您允许，页面图像（缩小后的 JPEG）和识别出的文本将被发送至您输入的 OpenAI 兼容服务器。您可以随时在"设置 › 隐私"中撤回此授权；撤回后，下次将再次询问您。</p>
+
+<h3>3. 翻译</h3>
+<p>识别出的文本将被发送至您在"设置 › 翻译设置"中选择的引擎：</p>
+<ul>
+<li><strong>Google</strong>（translate.googleapis.com）— 默认引擎。</li>
+<li><strong>Microsoft</strong>（Bing Translator，bing.com）。</li>
+<li><strong>Lingva</strong> — 开源的 Google 前端；由社区运营的服务器（例如 lingva.ml）。</li>
+<li><strong>MyMemory</strong>（api.mymemory.translated.net）。</li>
+<li><strong>DeepL</strong>（api.deepl.com）— 使用您自己的 API 密钥。</li>
+<li><strong>ChatGPT / OpenAI 兼容服务器</strong> — 默认为 api.openai.com，或您输入的地址（本地模型、OpenRouter、Groq 等），使用您自己的 API 密钥。</li>
+<li><strong>Apple（设备端）</strong>— 文本绝不会离开您的设备。</li>
+</ul>
+<p><strong>备用链：</strong>如果您选择的引擎没有响应，为避免译文为空，同一文本可能会依次发送至 Google、Lingva 和 MyMemory；最后会尝试 Apple 的设备端翻译。您可以在"设置 › 隐私 › <strong>回退到备用引擎</strong>"中关闭此功能。</p>
+<p>当您首次使用需联网的引擎进行翻译时，会显示一次性提示，说明文本将离开您的设备。在"设置 › 隐私"中，您可以查看当前已启用的引擎，并撤回授权和提示。</p>
+<p>当<strong>上下文翻译</strong>开启且正在使用 ChatGPT/视觉 AI 时，同一章节中之前的气泡及其译文将作为上下文发送至同一服务器。打开<strong>备选译文</strong>页面时，文本会被发送至多个引擎以供比较。"上一章摘要"和"讲解分格"等 AI 功能也会将相关文本发送至您的 OpenAI 兼容服务器。</p>
+<p>这些服务依据其各自的隐私政策处理文本和连接数据（例如 IP 地址）。</p>
+<p><strong>chinokko Pro：</strong>购买、续订、退款和恢复购买均通过 Apple 的 App Store 和 StoreKit 处理，并受 Apple 隐私政策的约束。开发者无法访问您的支付信息、Apple 账户或购买记录；您的订阅状态在您的设备上通过 Apple 签名的交易记录进行验证，此验证过程不会向任何服务器发送数据。</p>
+
+<h3>4. 其他网络连接</h3>
+<ul>
+<li><strong>您访问的网站和您添加的来源：</strong>请求直接从您的设备发送至这些网站。Cookie 保存在设备上的 WebKit 存储中。</li>
+<li><strong>搜索：</strong>在地址栏中输入的搜索内容将发送至您选择的搜索引擎（Google、Bing 或 DuckDuckGo）。</li>
+<li><strong>网站图标：</strong>为显示网站图标，其域名会被发送至 Google 的网站图标服务（google.com/s2/favicons）。</li>
+<li><strong>图片备用代理：</strong>如果阅读器中的页面图像无法从网站加载，图像地址将被发送至公共图片代理服务器（wsrv.nl、images.weserv.nl）以重试，并从该处获取图像。</li>
+<li><strong>广告拦截：</strong>过滤列表每周从 easylist.to 和 easylist-downloads.adblockplus.org 下载；不会发送任何个人数据。</li>
+<li><strong>AniList：</strong>仅在您关联账户时使用；您的阅读进度将写入您的 AniList 账户。</li>
+</ul>
+
+<h3>5. 分析、广告和崩溃报告</h3>
+<p>本应用不收集使用统计或崩溃报告。本应用不使用广告标识符（IDFA），也不请求追踪权限（App Tracking Transparency）。</p>
+<p><strong>自有推广（默认）：</strong>免费版中显示的 chinokko Pro 推广内容内置于应用中：不会连接任何广告网络，您阅读的内容或任何个人数据都不会被发送至任何地方。为执行每日上限，仅在您的设备上存储您当天观看激励推广的次数。</p>
+<p><strong>Google AdMob 广告（可选）：</strong>本应用的某些版本可能会展示由 Google AdMob（Google Ireland Limited / Google LLC）投放的广告以替代自有推广——即章节切换时的插页广告和可选的激励广告。在此情况下：</p>
+<ul>
+<li>在请求任何广告之前，Google 的同意工具（User Messaging Platform）会在需要的地区（例如欧洲经济区、英国和瑞士）征求您的同意；如无法获得同意，则不会请求广告。</li>
+<li>仅请求<strong>非个性化广告</strong>：广告不会基于您的兴趣或过往行为进行定向投放，也不使用 IDFA。</li>
+<li>Google Mobile Ads SDK 可能会处理设备和连接数据（例如 IP 地址、设备型号和操作系统、应用版本、大致位置、广告互动），用于投放广告、限制展示频次、防止欺诈和滥用以及生成汇总报告。这些数据依据 Google 自身的政策处理，并可能被传输至境外：<a href="https://policies.google.com/technologies/partner-sites">Google 如何使用来自使用其服务的网站或应用的信息</a>、<a href="https://policies.google.com/privacy">Google 隐私权政策</a>。</li>
+<li>您阅读页面的地址、您添加的来源或网站以及翻译文本<strong>绝不会</strong>与广告网络共享。</li>
+<li>广告绝不会显示在漫画页面上方或页面内；激励广告始终仅在您单独确认后才开始播放，拒绝观看绝不会让您损失任何额度。</li>
+<li>您可以随时在应用的隐私选项中更改或撤回您的同意。<mark class="fill">设置 › 隐私 › 广告隐私选项</mark></li>
+</ul>
+<p>iOS 生成的诊断报告（MetricKit）保留在您的设备上，仅在您分享时才会离开设备。如果您在 iOS 中启用了"与 App 开发者共享"，Apple 可能会根据其自身政策将匿名崩溃数据转发给开发者。</p>
+
+<h3>6. 面容 ID 和通知</h3>
+<p>开启应用锁时，身份验证由 iOS 执行；生物识别数据绝不会到达应用。通知在设备上生成。</p>
+
+<h3>7. 您的权利（KVKK 和 GDPR）</h3>
+<p>根据土耳其第 6698 号法律（KVKK）第 11 条以及欧盟《通用数据保护条例》（GDPR）第 15–22 条，您有权了解您的数据是否被处理，有权要求获取信息、更正和删除，有权反对处理，并享有数据可携带权。由于您的大部分数据仅存在于您的设备上，您可以直接在应用中或通过删除应用来管理这些数据。对于发送至第三方翻译服务或广告网络的数据，请联系相关服务方。</p>
+<p>您还有权向土耳其个人数据保护局或您所在国家的数据保护机构提出投诉。</p>
+<p>数据控制者：Mustafa Rahmi Köprücü（个体经营）<br>
+联系方式：<a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. 儿童</h3>
+<p>本应用面向 17 岁及以上的用户（App Store 年龄分级 17+）。17 岁以下的用户仅可在父母或法定监护人的许可和监督下使用本应用。我们不会故意收集儿童的个人数据；如果您认为发生了此类情况，请联系我们，我们将删除相关数据。</p>
+
+<h3>9. 变更</h3>
+<p>本政策可能会更新；重大变更将在应用内公告。</p>
+</section>
+
+<section class="lang" id="id" lang="id" aria-labelledby="id-h">
+<h2 id="id-h">Kebijakan Privasi (Bahasa Indonesia)</h2>
+<p class="note">Terjemahan ini disediakan untuk kemudahan. Jika terdapat perbedaan antarversi, versi bahasa Inggris yang berlaku.</p>
+<p class="meta">Terakhir diperbarui: 27 Oktober 2026</p>
+
+<h3>Ringkasnya</h3>
+<ul>
+<li>Tidak perlu akun, dan pengembang tidak menjalankan server yang mengumpulkan data dari Anda.</li>
+<li>Aplikasi tidak memuat SDK analitik atau pelaporan kerusakan (crash). Promosi dalam versi gratis secara default adalah layar milik aplikasi sendiri; promosi tersebut tidak melacak Anda dan tidak menggunakan jaringan. Iklan Google AdMob hanya dapat ditampilkan dengan ketentuan di bagian 5: dengan persetujuan dan tanpa personalisasi.</li>
+<li>Pengenalan teks (OCR) dilakukan sepenuhnya di perangkat Anda.</li>
+<li>Kunci API Anda disimpan di iOS Keychain.</li>
+<li>Gambar halaman hanya meninggalkan perangkat Anda jika Anda secara tegas mengizinkannya untuk Visual AI.</li>
+<li>Data hanya meninggalkan perangkat Anda dalam kasus yang tercantum di bawah ini, dan hanya ke layanan yang Anda pilih.</li>
+<li>Pembelian diproses oleh Apple; tidak ada data pembayaran atau kartu yang sampai ke pengembang. Status langganan, penghitung kredit terjemahan harian, dan penghitung promosi berhadiah tetap berada di perangkat Anda.</li>
+</ul>
+
+<h3>1. Data yang tetap berada di perangkat Anda</h3>
+<p>Perpustakaan, kategori, riwayat dan kemajuan membaca, bab yang diunduh, cache terjemahan dan memori terjemahan, glosarium, buku kosakata, serta pengaturan Anda hanya disimpan di perangkat ini, dalam penyimpanan milik aplikasi. Widget layar utama membaca ringkasan data ini di perangkat. Terjemahan hanya ditampilkan di dalam aplikasi; tidak ada berkas halaman terjemahan yang dihasilkan.</p>
+<p>Kunci API yang Anda masukkan (DeepL, server yang kompatibel dengan OpenAI) disimpan di iOS Keychain dan hanya terikat pada perangkat ini: kunci tersebut tidak disinkronkan ke iCloud Keychain, tidak dipindahkan ke perangkat lain, dan tidak disertakan dalam berkas cadangan aplikasi. Kunci yang disimpan bersama pengaturan oleh versi aplikasi sebelumnya dipindahkan ke Keychain secara otomatis pada penggunaan pertama dan dihapus dari lokasi lamanya.</p>
+<p>Tidak ada sinkronisasi iCloud. Berkas cadangan hanya dibuat dan dibagikan oleh Anda. Menghapus aplikasi akan menghapus semua data ini dari perangkat. iOS dapat menyimpan item Keychain di perangkat setelah aplikasi dihapus; untuk menghapus kunci Anda secara permanen, kosongkan kolom kunci di Pengaturan › Pengaturan Terjemahan sebelum menghapus aplikasi. Cache hak akses chinokko Pro dan penghitung kredit terjemahan harian disimpan di iOS Keychain hanya di perangkat ini dan tidak pernah dikirim ke mana pun.</p>
+
+<h3>2. Pengenalan teks (OCR)</h3>
+<p>Balon kata dikenali di perangkat Anda dengan framework Vision milik Apple. Gambar halaman tidak pernah dikirim ke server untuk OCR.</p>
+<p>Pengecualian: jika Anda mengaktifkan <strong>terjemahan Visual AI</strong> di Pengaturan › Pengaturan Terjemahan, layar izin yang menunjukkan apa yang akan dikirim dan ke server mana akan muncul sebelum halaman pertama dikirim. Tidak ada gambar halaman yang dikirim kecuali Anda mengizinkannya; jika Anda menolak, Visual AI dimatikan dan terjemahan dilanjutkan hanya dengan teks. Jika Anda mengizinkannya, gambar halaman (JPEG yang diperkecil) dan teks yang dikenali dikirim ke server yang kompatibel dengan OpenAI yang Anda masukkan. Anda dapat menarik izin ini kapan saja di Pengaturan › Privasi; Anda akan ditanya lagi pada kesempatan berikutnya.</p>
+
+<h3>3. Terjemahan</h3>
+<p>Teks yang dikenali dikirim ke mesin yang Anda pilih di Pengaturan › Pengaturan Terjemahan:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — mesin default.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — antarmuka Google sumber terbuka; server yang dikelola komunitas (mis. lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — dengan kunci API Anda sendiri.</li>
+<li><strong>ChatGPT / server yang kompatibel dengan OpenAI</strong> — api.openai.com secara default, atau alamat yang Anda masukkan (model lokal, OpenRouter, Groq, dll.), dengan kunci API Anda sendiri.</li>
+<li><strong>Apple (di perangkat)</strong> — teks tidak pernah meninggalkan perangkat Anda.</li>
+</ul>
+<p><strong>Rantai cadangan:</strong> jika mesin yang Anda pilih tidak merespons, teks yang sama dapat dikirim ke Google, Lingva, dan MyMemory secara berurutan agar terjemahan tidak kosong; terjemahan Apple di perangkat dicoba terakhir. Anda dapat mematikannya di Pengaturan › Privasi › <strong>Beralih ke mesin cadangan</strong>.</p>
+<p>Saat pertama kali Anda menerjemahkan dengan mesin yang bekerja melalui internet, pemberitahuan satu kali menjelaskan bahwa teks akan meninggalkan perangkat Anda. Di Pengaturan › Privasi Anda dapat melihat mesin mana yang sedang aktif serta menarik izin dan pemberitahuan tersebut.</p>
+<p>Jika <strong>terjemahan kontekstual</strong> aktif dan ChatGPT/Visual AI digunakan, balon-balon sebelumnya dari bab yang sama beserta terjemahannya dikirim ke server yang sama sebagai konteks. Membuka layar <strong>terjemahan alternatif</strong> akan mengirim teks ke beberapa mesin untuk dibandingkan. Fitur AI seperti "ringkasan bab sebelumnya" dan "jelaskan panel" juga mengirim teks terkait ke server yang kompatibel dengan OpenAI milik Anda.</p>
+<p>Layanan-layanan ini memproses teks dan data koneksi (mis. alamat IP) berdasarkan kebijakan privasi mereka sendiri.</p>
+<p><strong>chinokko Pro:</strong> Pembelian, perpanjangan, pengembalian dana, dan pemulihan ditangani melalui App Store dan StoreKit milik Apple serta tunduk pada kebijakan privasi Apple. Pengembang tidak memiliki akses ke detail pembayaran, Akun Apple, atau riwayat pembelian Anda; status langganan Anda diverifikasi di perangkat Anda menggunakan catatan transaksi bertanda tangan dari Apple, dan tidak ada data yang dikirim ke server mana pun untuk verifikasi ini.</p>
+
+<h3>4. Koneksi jaringan lainnya</h3>
+<ul>
+<li><strong>Situs yang Anda kunjungi dan sumber yang Anda tambahkan:</strong> permintaan dikirim langsung dari perangkat Anda ke situs-situs tersebut. Cookie disimpan di penyimpanan WebKit di perangkat.</li>
+<li><strong>Pencarian:</strong> pencarian yang diketik di bilah alamat dikirim ke mesin pencari yang Anda pilih (Google, Bing, atau DuckDuckGo).</li>
+<li><strong>Ikon situs:</strong> untuk menampilkan ikon situs, nama domainnya dikirim ke layanan favicon Google (google.com/s2/favicons).</li>
+<li><strong>Proksi cadangan gambar:</strong> jika gambar halaman gagal dimuat dari situs di pembaca, alamat gambar dikirim ke server proksi gambar publik (wsrv.nl, images.weserv.nl) untuk dicoba ulang, dan gambar diambil dari sana.</li>
+<li><strong>Pemblokiran iklan:</strong> daftar filter diunduh setiap minggu dari easylist.to dan easylist-downloads.adblockplus.org; tidak ada data pribadi yang dikirim.</li>
+<li><strong>AniList:</strong> hanya digunakan jika Anda menghubungkan akun Anda; kemajuan membaca Anda ditulis ke akun AniList Anda.</li>
+</ul>
+
+<h3>5. Analitik, iklan, dan laporan kerusakan</h3>
+<p>Tidak ada statistik penggunaan atau laporan kerusakan yang dikumpulkan. Aplikasi tidak menggunakan pengenal iklan (IDFA) dan tidak meminta izin pelacakan (App Tracking Transparency).</p>
+<p><strong>Promosi internal (default):</strong> Promosi chinokko Pro yang ditampilkan dalam versi gratis sudah tertanam di aplikasi: tidak ada jaringan iklan yang dihubungi, dan baik apa yang Anda baca maupun data pribadi apa pun tidak dikirim ke mana pun. Jumlah promosi berhadiah yang Anda tonton hari ini hanya disimpan di perangkat Anda untuk menerapkan batas harian.</p>
+<p><strong>Iklan Google AdMob (opsional):</strong> Beberapa versi aplikasi dapat menampilkan iklan yang disajikan oleh Google AdMob (Google Ireland Limited / Google LLC) sebagai pengganti promosi internal — iklan interstisial saat perpindahan bab dan iklan berhadiah opsional. Dalam hal ini:</p>
+<ul>
+<li>Sebelum iklan apa pun diminta, alat persetujuan Google (User Messaging Platform) meminta persetujuan Anda jika diwajibkan (mis. di EEA, Inggris, dan Swiss); jika persetujuan tidak dapat diperoleh, tidak ada iklan yang diminta.</li>
+<li>Hanya <strong>iklan yang tidak dipersonalisasi</strong> yang diminta: iklan tidak ditargetkan berdasarkan minat atau perilaku Anda sebelumnya, dan IDFA tidak digunakan.</li>
+<li>Google Mobile Ads SDK dapat memproses data perangkat dan koneksi (mis. alamat IP, model perangkat dan sistem operasi, versi aplikasi, lokasi perkiraan, interaksi iklan) untuk menyajikan iklan, membatasi frekuensi, mencegah penipuan dan penyalahgunaan, serta menghasilkan laporan agregat. Data ini diproses berdasarkan kebijakan Google sendiri dan dapat ditransfer ke luar negeri: <a href="https://policies.google.com/technologies/partner-sites">Cara Google menggunakan informasi dari situs atau aplikasi yang menggunakan layanannya</a>, <a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a>.</li>
+<li>Alamat halaman yang Anda baca, sumber atau situs yang Anda tambahkan, dan teks terjemahan <strong>tidak pernah</strong> dibagikan dengan jaringan iklan.</li>
+<li>Iklan tidak pernah ditampilkan di atas atau di dalam halaman manga; iklan berhadiah selalu dimulai hanya dengan konfirmasi terpisah dari Anda, dan menolaknya tidak pernah mengurangi kredit Anda.</li>
+<li>Anda dapat mengubah atau menarik persetujuan Anda kapan saja di opsi privasi aplikasi. <mark class="fill">Pengaturan › Privasi › Opsi privasi iklan</mark></li>
+</ul>
+<p>Laporan diagnostik yang dibuat oleh iOS (MetricKit) tetap berada di perangkat Anda dan hanya meninggalkannya jika Anda membagikannya. Jika Anda mengaktifkan "Bagikan dengan Pengembang App" di iOS, Apple dapat meneruskan data kerusakan anonim kepada pengembang berdasarkan kebijakan Apple sendiri.</p>
+
+<h3>6. Face ID dan notifikasi</h3>
+<p>Saat kunci aplikasi aktif, autentikasi dilakukan oleh iOS; data biometrik tidak pernah sampai ke aplikasi. Notifikasi dibuat di perangkat.</p>
+
+<h3>7. Hak Anda (KVKK dan GDPR)</h3>
+<p>Berdasarkan Pasal 11 Undang-Undang Turki No. 6698 (KVKK) dan Pasal 15–22 GDPR Uni Eropa, Anda berhak untuk mengetahui apakah data Anda diproses, meminta informasi, perbaikan, dan penghapusan, mengajukan keberatan atas pemrosesan, serta atas portabilitas data. Karena sebagian besar data Anda hanya ada di perangkat Anda, Anda dapat mengelolanya langsung di aplikasi atau dengan menghapus aplikasi. Untuk data yang dikirim ke layanan terjemahan pihak ketiga atau jaringan iklan, silakan hubungi layanan terkait.</p>
+<p>Anda juga berhak mengajukan pengaduan kepada Otoritas Perlindungan Data Pribadi Turki atau otoritas perlindungan data di negara Anda.</p>
+<p>Pengendali data: Mustafa Rahmi Köprücü (usaha perseorangan)<br>
+Kontak: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Anak-anak</h3>
+<p>Aplikasi ini ditujukan untuk pengguna berusia 17 tahun ke atas (rating usia App Store 17+). Pengguna di bawah 17 tahun hanya boleh menggunakan aplikasi dengan izin dan pengawasan orang tua atau wali sah. Kami tidak dengan sengaja mengumpulkan data pribadi dari anak-anak; jika Anda yakin hal ini telah terjadi, hubungi kami dan data tersebut akan dihapus.</p>
+
+<h3>9. Perubahan</h3>
+<p>Kebijakan ini dapat diperbarui; perubahan yang signifikan akan diumumkan di aplikasi.</p>
+</section>
+
+<section class="lang" id="vi" lang="vi" aria-labelledby="vi-h">
+<h2 id="vi-h">Chính sách quyền riêng tư (Tiếng Việt)</h2>
+<p class="note">Bản dịch này được cung cấp để thuận tiện cho bạn. Nếu có bất kỳ khác biệt nào giữa các phiên bản, phiên bản tiếng Anh sẽ được ưu tiên áp dụng.</p>
+<p class="meta">Cập nhật lần cuối: 27 tháng 10 năm 2026</p>
+
+<h3>Tóm tắt</h3>
+<ul>
+<li>Không cần tài khoản, và nhà phát triển không vận hành máy chủ nào thu thập dữ liệu của bạn.</li>
+<li>Ứng dụng không chứa SDK phân tích hay báo cáo sự cố. Theo mặc định, các nội dung quảng bá trong phiên bản miễn phí là màn hình riêng của ứng dụng; chúng không theo dõi bạn và không sử dụng mạng. Quảng cáo Google AdMob chỉ có thể được hiển thị theo các điều kiện tại mục 5: khi có sự đồng ý và không được cá nhân hóa.</li>
+<li>Nhận dạng văn bản (OCR) diễn ra hoàn toàn trên thiết bị của bạn.</li>
+<li>Khóa API của bạn được lưu trong iOS Keychain.</li>
+<li>Hình ảnh trang chỉ rời khỏi thiết bị của bạn nếu bạn cho phép rõ ràng đối với Visual AI.</li>
+<li>Dữ liệu chỉ rời khỏi thiết bị của bạn trong các trường hợp liệt kê dưới đây, và chỉ đến các dịch vụ bạn chọn.</li>
+<li>Giao dịch mua được Apple xử lý; không có dữ liệu thanh toán hay thẻ nào đến tay nhà phát triển. Trạng thái đăng ký, bộ đếm lượt dịch hằng ngày và bộ đếm quảng bá có thưởng đều nằm trên thiết bị của bạn.</li>
+</ul>
+
+<h3>1. Dữ liệu nằm lại trên thiết bị của bạn</h3>
+<p>Thư viện, danh mục, lịch sử và tiến độ đọc, các chương đã tải xuống, bộ nhớ đệm dịch và bộ nhớ dịch, bảng thuật ngữ, sổ từ vựng và cài đặt của bạn chỉ được lưu trên thiết bị này, trong bộ nhớ riêng của ứng dụng. Tiện ích màn hình chính đọc bản tóm tắt của dữ liệu này ngay trên thiết bị. Bản dịch chỉ được hiển thị bên trong ứng dụng; không có tệp trang đã dịch nào được tạo ra.</p>
+<p>Các khóa API bạn nhập (DeepL, máy chủ tương thích OpenAI) được lưu trong iOS Keychain và chỉ gắn với thiết bị này: chúng không được đồng bộ với iCloud Keychain, không được chuyển sang thiết bị khác và không có trong tệp sao lưu của ứng dụng. Các khóa mà phiên bản trước của ứng dụng lưu cùng cài đặt sẽ được tự động chuyển vào Keychain ở lần sử dụng đầu tiên và bị xóa khỏi vị trí cũ.</p>
+<p>Không có đồng bộ iCloud. Tệp sao lưu chỉ do bạn tạo và chia sẻ. Xóa ứng dụng sẽ xóa toàn bộ dữ liệu này khỏi thiết bị. iOS có thể giữ lại các mục Keychain trên thiết bị sau khi ứng dụng bị xóa; để xóa vĩnh viễn các khóa của bạn, hãy xóa trống các trường khóa trong Cài đặt › Cài đặt dịch trước khi xóa ứng dụng. Bộ nhớ đệm quyền chinokko Pro và bộ đếm lượt dịch hằng ngày được lưu trong iOS Keychain chỉ trên thiết bị này và không bao giờ được gửi đi đâu.</p>
+
+<h3>2. Nhận dạng văn bản (OCR)</h3>
+<p>Bóng thoại được nhận dạng trên thiết bị của bạn bằng framework Vision của Apple. Hình ảnh trang không bao giờ được gửi đến máy chủ để thực hiện OCR.</p>
+<p>Ngoại lệ: nếu bạn bật <strong>dịch bằng Visual AI</strong> trong Cài đặt › Cài đặt dịch, một màn hình xin phép cho biết những gì sẽ được gửi và gửi đến máy chủ nào sẽ xuất hiện trước khi trang đầu tiên được gửi. Không có hình ảnh trang nào được gửi nếu bạn không cho phép; nếu bạn từ chối, Visual AI sẽ bị tắt và việc dịch tiếp tục chỉ với văn bản. Nếu bạn cho phép, hình ảnh trang (JPEG đã thu nhỏ) và văn bản đã nhận dạng sẽ được gửi đến máy chủ tương thích OpenAI mà bạn đã nhập. Bạn có thể rút lại quyền này bất cứ lúc nào trong Cài đặt › Quyền riêng tư; khi đó bạn sẽ được hỏi lại vào lần tiếp theo.</p>
+
+<h3>3. Dịch</h3>
+<p>Văn bản đã nhận dạng được gửi đến công cụ bạn chọn trong Cài đặt › Cài đặt dịch:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — công cụ mặc định.</li>
+<li><strong>Microsoft</strong> (Bing Translator, bing.com).</li>
+<li><strong>Lingva</strong> — giao diện Google mã nguồn mở; các máy chủ do cộng đồng vận hành (ví dụ lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — với khóa API của riêng bạn.</li>
+<li><strong>ChatGPT / máy chủ tương thích OpenAI</strong> — mặc định là api.openai.com, hoặc địa chỉ bạn nhập (mô hình cục bộ, OpenRouter, Groq, v.v.), với khóa API của riêng bạn.</li>
+<li><strong>Apple (trên thiết bị)</strong> — văn bản không bao giờ rời khỏi thiết bị của bạn.</li>
+</ul>
+<p><strong>Chuỗi dự phòng:</strong> nếu công cụ bạn chọn không phản hồi, cùng một đoạn văn bản có thể được gửi lần lượt đến Google, Lingva và MyMemory để bản dịch không bị trống; dịch của Apple trên thiết bị được thử sau cùng. Bạn có thể tắt tính năng này trong Cài đặt › Quyền riêng tư › <strong>Chuyển sang công cụ dự phòng</strong>.</p>
+<p>Lần đầu tiên bạn dịch bằng một công cụ hoạt động qua internet, một thông báo một lần sẽ giải thích rằng văn bản sẽ rời khỏi thiết bị của bạn. Trong Cài đặt › Quyền riêng tư, bạn có thể xem những công cụ nào đang được bật và rút lại các quyền cũng như thông báo đó.</p>
+<p>Khi <strong>dịch theo ngữ cảnh</strong> được bật và đang dùng ChatGPT/Visual AI, các bóng thoại trước đó trong cùng chương và bản dịch của chúng sẽ được gửi đến cùng máy chủ làm ngữ cảnh. Mở màn hình <strong>bản dịch thay thế</strong> sẽ gửi văn bản đến nhiều công cụ để so sánh. Các tính năng AI như "tóm tắt chương trước" và "giải thích khung tranh" cũng gửi văn bản liên quan đến máy chủ tương thích OpenAI của bạn.</p>
+<p>Các dịch vụ này xử lý văn bản và dữ liệu kết nối (ví dụ địa chỉ IP) theo chính sách quyền riêng tư của riêng họ.</p>
+<p><strong>chinokko Pro:</strong> Việc mua, gia hạn, hoàn tiền và khôi phục được xử lý thông qua App Store và StoreKit của Apple và tuân theo chính sách quyền riêng tư của Apple. Nhà phát triển không có quyền truy cập vào thông tin thanh toán, Tài khoản Apple hay lịch sử mua hàng của bạn; trạng thái đăng ký của bạn được xác minh trên thiết bị bằng các bản ghi giao dịch có chữ ký của Apple, và không có dữ liệu nào được gửi đến bất kỳ máy chủ nào cho việc xác minh này.</p>
+
+<h3>4. Các kết nối mạng khác</h3>
+<ul>
+<li><strong>Các trang web bạn truy cập và nguồn bạn thêm:</strong> yêu cầu được gửi trực tiếp từ thiết bị của bạn đến các trang đó. Cookie được lưu trong bộ nhớ WebKit trên thiết bị.</li>
+<li><strong>Tìm kiếm:</strong> các tìm kiếm nhập vào thanh địa chỉ được gửi đến công cụ tìm kiếm bạn chọn (Google, Bing hoặc DuckDuckGo).</li>
+<li><strong>Biểu tượng trang web:</strong> để hiển thị biểu tượng của một trang, tên miền của trang đó được gửi đến dịch vụ favicon của Google (google.com/s2/favicons).</li>
+<li><strong>Proxy dự phòng cho hình ảnh:</strong> nếu một hình ảnh trang không tải được từ trang web trong trình đọc, địa chỉ của hình ảnh sẽ được gửi đến các máy chủ proxy hình ảnh công khai (wsrv.nl, images.weserv.nl) để thử lại, và hình ảnh được tải về từ đó.</li>
+<li><strong>Chặn quảng cáo:</strong> danh sách bộ lọc được tải xuống hằng tuần từ easylist.to và easylist-downloads.adblockplus.org; không có dữ liệu cá nhân nào được gửi đi.</li>
+<li><strong>AniList:</strong> chỉ được dùng nếu bạn kết nối tài khoản; tiến độ đọc của bạn được ghi vào tài khoản AniList của bạn.</li>
+</ul>
+
+<h3>5. Phân tích, quảng cáo và báo cáo sự cố</h3>
+<p>Không có số liệu thống kê sử dụng hay báo cáo sự cố nào được thu thập. Ứng dụng không sử dụng mã định danh quảng cáo (IDFA) và không xin quyền theo dõi (App Tracking Transparency).</p>
+<p><strong>Quảng bá nội bộ (mặc định):</strong> Các nội dung quảng bá chinokko Pro hiển thị trong phiên bản miễn phí được tích hợp sẵn trong ứng dụng: không liên hệ với mạng quảng cáo nào, và cả những gì bạn đọc lẫn bất kỳ dữ liệu cá nhân nào đều không được gửi đi đâu. Số lượt quảng bá có thưởng bạn đã xem hôm nay chỉ được lưu trên thiết bị của bạn để áp dụng giới hạn hằng ngày.</p>
+<p><strong>Quảng cáo Google AdMob (tùy chọn):</strong> Một số phiên bản của ứng dụng có thể hiển thị quảng cáo do Google AdMob (Google Ireland Limited / Google LLC) phân phối thay cho quảng bá nội bộ — quảng cáo xen kẽ khi chuyển chương và quảng cáo có thưởng tùy chọn. Trong trường hợp đó:</p>
+<ul>
+<li>Trước khi bất kỳ quảng cáo nào được yêu cầu, công cụ lấy sự đồng ý của Google (User Messaging Platform) sẽ hỏi ý kiến đồng ý của bạn khi pháp luật yêu cầu (ví dụ tại EEA, Vương quốc Anh và Thụy Sĩ); nếu không có được sự đồng ý, sẽ không có quảng cáo nào được yêu cầu.</li>
+<li>Chỉ <strong>quảng cáo không được cá nhân hóa</strong> được yêu cầu: quảng cáo không được nhắm mục tiêu dựa trên sở thích hay hành vi trước đây của bạn, và IDFA không được sử dụng.</li>
+<li>Google Mobile Ads SDK có thể xử lý dữ liệu thiết bị và kết nối (ví dụ địa chỉ IP, kiểu thiết bị và hệ điều hành, phiên bản ứng dụng, vị trí gần đúng, tương tác với quảng cáo) để phân phối quảng cáo, giới hạn tần suất, ngăn chặn gian lận và lạm dụng, và lập báo cáo tổng hợp. Dữ liệu này được xử lý theo chính sách riêng của Google và có thể được chuyển ra nước ngoài: <a href="https://policies.google.com/technologies/partner-sites">Cách Google sử dụng thông tin từ các trang web hoặc ứng dụng sử dụng dịch vụ của Google</a>, <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a>.</li>
+<li>Địa chỉ các trang bạn đọc, các nguồn hoặc trang web bạn thêm, và văn bản đã dịch <strong>không bao giờ</strong> được chia sẻ với mạng quảng cáo.</li>
+<li>Quảng cáo không bao giờ được hiển thị đè lên hoặc bên trong các trang manga; quảng cáo có thưởng luôn chỉ bắt đầu khi có xác nhận riêng của bạn, và việc từ chối không bao giờ làm bạn mất lượt dịch nào.</li>
+<li>Bạn có thể thay đổi hoặc rút lại sự đồng ý bất cứ lúc nào trong các tùy chọn quyền riêng tư của ứng dụng. <mark class="fill">Cài đặt › Quyền riêng tư › Tùy chọn quyền riêng tư quảng cáo</mark></li>
+</ul>
+<p>Các báo cáo chẩn đoán do iOS tạo ra (MetricKit) nằm lại trên thiết bị của bạn và chỉ rời khỏi thiết bị nếu bạn chia sẻ chúng. Nếu bạn đã bật "Chia sẻ với nhà phát triển ứng dụng" trong iOS, Apple có thể chuyển dữ liệu sự cố ẩn danh đến nhà phát triển theo chính sách riêng của Apple.</p>
+
+<h3>6. Face ID và thông báo</h3>
+<p>Khi khóa ứng dụng được bật, việc xác thực do iOS thực hiện; dữ liệu sinh trắc học không bao giờ đến được ứng dụng. Thông báo được tạo ngay trên thiết bị.</p>
+
+<h3>7. Quyền của bạn (KVKK và GDPR)</h3>
+<p>Theo Điều 11 Luật số 6698 của Thổ Nhĩ Kỳ (KVKK) và các Điều 15–22 của GDPR Liên minh châu Âu, bạn có quyền được biết dữ liệu của mình có đang được xử lý hay không, yêu cầu cung cấp thông tin, chỉnh sửa và xóa dữ liệu, phản đối việc xử lý và quyền di chuyển dữ liệu. Vì phần lớn dữ liệu của bạn chỉ tồn tại trên thiết bị, bạn có thể quản lý trực tiếp trong ứng dụng hoặc bằng cách xóa ứng dụng. Đối với dữ liệu đã gửi đến các dịch vụ dịch của bên thứ ba hoặc mạng quảng cáo, vui lòng liên hệ với dịch vụ liên quan.</p>
+<p>Bạn cũng có quyền khiếu nại lên Cơ quan Bảo vệ Dữ liệu Cá nhân Thổ Nhĩ Kỳ hoặc cơ quan bảo vệ dữ liệu tại quốc gia của bạn.</p>
+<p>Bên kiểm soát dữ liệu: Mustafa Rahmi Köprücü (doanh nghiệp tư nhân)<br>
+Liên hệ: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. Trẻ em</h3>
+<p>Ứng dụng dành cho người dùng từ 17 tuổi trở lên (xếp hạng độ tuổi App Store 17+). Người dùng dưới 17 tuổi chỉ được sử dụng ứng dụng khi có sự cho phép và giám sát của cha mẹ hoặc người giám hộ hợp pháp. Chúng tôi không cố ý thu thập dữ liệu cá nhân của trẻ em; nếu bạn cho rằng điều này đã xảy ra, hãy liên hệ với chúng tôi và dữ liệu sẽ bị xóa.</p>
+
+<h3>9. Thay đổi</h3>
+<p>Chính sách này có thể được cập nhật; những thay đổi quan trọng sẽ được thông báo trong ứng dụng.</p>
+</section>
+
+<section class="lang" id="ar" lang="ar" dir="rtl" aria-labelledby="ar-h">
+<h2 id="ar-h">سياسة الخصوصية (العربية)</h2>
+<p class="note">تُقدَّم هذه الترجمة للتيسير فقط. وفي حال وجود أي اختلاف بين النسخ، تكون النسخة الإنجليزية هي المرجع.</p>
+<p class="meta">آخر تحديث: 27 أكتوبر 2026</p>
+
+<h3>باختصار</h3>
+<ul>
+<li>لا يلزم إنشاء حساب، ولا يشغّل المطوّر أي خادم يجمع بيانات منك.</li>
+<li>لا يحتوي التطبيق على أي SDK للتحليلات أو للإبلاغ عن الأعطال. العروض الترويجية في النسخة المجانية هي افتراضيًا شاشات خاصة بالتطبيق نفسه؛ فهي لا تتتبّعك ولا تستخدم الشبكة. ولا يجوز عرض إعلانات Google AdMob إلا وفق الشروط الواردة في القسم 5: بموافقتك ودون تخصيص.</li>
+<li>يتم التعرّف على النصوص (OCR) بالكامل على جهازك.</li>
+<li>تُخزَّن مفاتيح API الخاصة بك في iOS Keychain.</li>
+<li>لا تغادر صور الصفحات جهازك إلا إذا سمحت بذلك صراحةً لميزة Visual AI.</li>
+<li>لا تغادر البيانات جهازك إلا في الحالات المذكورة أدناه، وإلى الخدمات التي تختارها فقط.</li>
+<li>تُعالَج عمليات الشراء بواسطة Apple؛ ولا تصل أي بيانات دفع أو بطاقات إلى المطوّر. وتبقى حالة الاشتراك وعدّاد أرصدة الترجمة اليومية وعدّاد العروض الترويجية المكافِئة على جهازك.</li>
+</ul>
+
+<h3>1. البيانات التي تبقى على جهازك</h3>
+<p>تُخزَّن مكتبتك وتصنيفاتك وسجلّ القراءة والتقدّم فيها والفصول التي نزّلتها وذاكرة الترجمة المؤقتة وذاكرة الترجمة ومسرد المصطلحات ودفتر المفردات والإعدادات على هذا الجهاز فقط، في مساحة التخزين الخاصة بالتطبيق. وتقرأ أداة الشاشة الرئيسية ملخّصًا لهذه البيانات على الجهاز. تُعرض الترجمات داخل التطبيق فقط؛ ولا تُنشأ أي ملفات لصفحات مترجمة.</p>
+<p>تُخزَّن مفاتيح API التي تدخلها (DeepL، والخادم المتوافق مع OpenAI) في iOS Keychain مرتبطةً بهذا الجهاز فقط: فلا تُزامَن مع iCloud Keychain، ولا تُنقل إلى جهاز آخر، ولا تُضمَّن في ملف النسخ الاحتياطي للتطبيق. أما المفاتيح التي خزّنتها الإصدارات السابقة من التطبيق مع الإعدادات، فتُنقل تلقائيًا إلى Keychain عند أول استخدام وتُحذف من موقعها القديم.</p>
+<p>لا توجد مزامنة مع iCloud. ولا تُنشأ ملفات النسخ الاحتياطي ولا تُشارَك إلا بواسطتك. ويؤدي حذف التطبيق إلى إزالة جميع هذه البيانات من الجهاز. قد يحتفظ iOS بعناصر Keychain على الجهاز بعد حذف التطبيق؛ ولإزالة مفاتيحك نهائيًا، امسح حقول المفاتيح في الإعدادات › إعدادات الترجمة قبل حذف التطبيق. وتُخزَّن ذاكرة استحقاق chinokko Pro المؤقتة وعدّاد أرصدة الترجمة اليومية في iOS Keychain على هذا الجهاز فقط، ولا تُرسَل إلى أي مكان أبدًا.</p>
+
+<h3>2. التعرّف على النصوص (OCR)</h3>
+<p>يتم التعرّف على فقاعات الكلام على جهازك باستخدام إطار عمل Vision من Apple. ولا تُرسَل صور الصفحات أبدًا إلى أي خادم لإجراء OCR.</p>
+<p>استثناء: إذا فعّلت <strong>ترجمة Visual AI</strong> في الإعدادات › إعدادات الترجمة، تظهر شاشة إذن توضّح ما سيُرسَل وإلى أي خادم قبل إرسال الصفحة الأولى. ولا تُرسَل أي صورة صفحة ما لم تسمح بذلك؛ وإذا رفضت، تُعطَّل ميزة Visual AI وتستمر الترجمة بالنص فقط. وإذا سمحت، تُرسَل صورة الصفحة (بصيغة JPEG مصغّرة) والنص المُتعرَّف عليه إلى الخادم المتوافق مع OpenAI الذي أدخلته. ويمكنك سحب هذا الإذن في أي وقت من الإعدادات › الخصوصية؛ وسيُطلب منك الإذن مجددًا في المرة التالية.</p>
+
+<h3>3. الترجمة</h3>
+<p>يُرسَل النص المُتعرَّف عليه إلى المحرّك الذي تختاره في الإعدادات › إعدادات الترجمة:</p>
+<ul>
+<li><strong>Google</strong> (translate.googleapis.com) — المحرّك الافتراضي.</li>
+<li><strong>Microsoft</strong> (Bing Translator، bing.com).</li>
+<li><strong>Lingva</strong> — واجهة مفتوحة المصدر لترجمة Google؛ تعمل على خوادم يديرها المجتمع (مثل lingva.ml).</li>
+<li><strong>MyMemory</strong> (api.mymemory.translated.net).</li>
+<li><strong>DeepL</strong> (api.deepl.com) — باستخدام مفتاح API الخاص بك.</li>
+<li><strong>ChatGPT / خادم متوافق مع OpenAI</strong> — api.openai.com افتراضيًا، أو العنوان الذي تدخله (نموذج محلي، OpenRouter، Groq، وغيرها)، باستخدام مفتاح API الخاص بك.</li>
+<li><strong>Apple (على الجهاز)</strong> — لا يغادر النص جهازك أبدًا.</li>
+</ul>
+<p><strong>سلسلة الاحتياط:</strong> إذا لم يستجب المحرّك الذي اخترته، فقد يُرسَل النص نفسه إلى Google ثم Lingva ثم MyMemory بهذا الترتيب كي لا تبقى الترجمة فارغة؛ وتُجرَّب ترجمة Apple على الجهاز في النهاية. ويمكنك إيقاف ذلك من الإعدادات › الخصوصية › <strong>التحويل إلى المحرّكات الاحتياطية</strong>.</p>
+<p>في المرة الأولى التي تترجم فيها بمحرّك يعمل عبر الإنترنت، يظهر إشعار لمرة واحدة يوضّح أن النص سيغادر جهازك. ويمكنك من الإعدادات › الخصوصية معرفة المحرّكات المفعّلة حاليًا وسحب الأذونات والإشعار.</p>
+<p>عند تفعيل <strong>الترجمة السياقية</strong> واستخدام ChatGPT/Visual AI، تُرسَل الفقاعات السابقة من الفصل نفسه وترجماتها إلى الخادم نفسه بوصفها سياقًا. ويؤدي فتح شاشة <strong>الترجمات البديلة</strong> إلى إرسال النص إلى عدة محرّكات للمقارنة. كما ترسل ميزات الذكاء الاصطناعي مثل "ملخّص الفصل السابق" و"شرح اللوحة" النص ذا الصلة إلى خادمك المتوافق مع OpenAI.</p>
+<p>تعالج هذه الخدمات النص وبيانات الاتصال (مثل عنوان IP) وفقًا لسياسات الخصوصية الخاصة بها.</p>
+<p><strong>chinokko Pro:</strong> تتم عمليات الشراء والتجديد واسترداد الأموال والاستعادة عبر App Store وStoreKit من Apple، وتخضع لسياسة الخصوصية الخاصة بـApple. ولا يملك المطوّر أي وصول إلى بيانات الدفع أو حساب Apple أو سجلّ مشترياتك؛ إذ يُتحقَّق من حالة اشتراكك على جهازك باستخدام سجلات المعاملات الموقّعة من Apple، ولا تُرسَل أي بيانات إلى أي خادم لأغراض هذا التحقق.</p>
+
+<h3>4. اتصالات الشبكة الأخرى</h3>
+<ul>
+<li><strong>المواقع التي تزورها والمصادر التي تضيفها:</strong> تُرسَل الطلبات مباشرةً من جهازك إلى تلك المواقع. وتُحفَظ ملفات تعريف الارتباط في مساحة تخزين WebKit على الجهاز.</li>
+<li><strong>البحث:</strong> تُرسَل عمليات البحث المكتوبة في شريط العنوان إلى محرّك البحث الذي تختاره (Google أو Bing أو DuckDuckGo).</li>
+<li><strong>أيقونات المواقع:</strong> لعرض أيقونة موقع ما، يُرسَل اسم نطاقه إلى خدمة الأيقونات من Google (google.com/s2/favicons).</li>
+<li><strong>الوكيل الاحتياطي للصور:</strong> إذا تعذّر تحميل صورة صفحة من الموقع في القارئ، يُرسَل عنوان الصورة إلى خوادم وكيل صور عامة (wsrv.nl، images.weserv.nl) لإعادة المحاولة، وتُجلب الصورة من هناك.</li>
+<li><strong>حظر الإعلانات:</strong> تُنزَّل قوائم التصفية أسبوعيًا من easylist.to وeasylist-downloads.adblockplus.org؛ ولا تُرسَل أي بيانات شخصية.</li>
+<li><strong>AniList:</strong> لا يُستخدم إلا إذا ربطت حسابك؛ ويُسجَّل تقدّمك في القراءة في حسابك على AniList.</li>
+</ul>
+
+<h3>5. التحليلات والإعلانات وتقارير الأعطال</h3>
+<p>لا تُجمع أي إحصاءات استخدام أو تقارير أعطال. ولا يستخدم التطبيق معرّف الإعلانات (IDFA) ولا يطلب إذن التتبّع (App Tracking Transparency).</p>
+<p><strong>العروض الترويجية الداخلية (افتراضيًا):</strong> العروض الترويجية لـchinokko Pro المعروضة في النسخة المجانية مدمجة في التطبيق: فلا يُتصل بأي شبكة إعلانية، ولا يُرسَل ما تقرؤه ولا أي بيانات شخصية إلى أي مكان. ويُخزَّن عدد العروض الترويجية المكافِئة التي شاهدتها اليوم على جهازك فقط لتطبيق الحدّ اليومي.</p>
+<p><strong>إعلانات Google AdMob (اختيارية):</strong> قد تعرض بعض إصدارات التطبيق إعلانات تقدّمها Google AdMob (Google Ireland Limited / Google LLC) بدلًا من العروض الترويجية الداخلية — إعلان بيني عند الانتقال بين الفصول وإعلانات مكافِئة اختيارية. وفي هذه الحالة:</p>
+<ul>
+<li>قبل طلب أي إعلان، تطلب أداة الموافقة من Google (User Messaging Platform) موافقتك حيثما يكون ذلك مطلوبًا (مثل المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا)؛ وإذا تعذّر الحصول على الموافقة، لا يُطلب أي إعلان.</li>
+<li>لا تُطلب إلا <strong>الإعلانات غير المخصّصة</strong>: فلا تُستهدف الإعلانات بناءً على اهتماماتك أو سلوكك السابق، ولا يُستخدم IDFA.</li>
+<li>قد تعالج Google Mobile Ads SDK بيانات الجهاز والاتصال (مثل عنوان IP وطراز الجهاز ونظام التشغيل وإصدار التطبيق والموقع التقريبي والتفاعلات مع الإعلانات) لعرض الإعلانات وتحديد تكرارها ومنع الاحتيال وإساءة الاستخدام وإعداد تقارير مجمّعة. وتُعالَج هذه البيانات وفقًا لسياسات Google الخاصة وقد تُنقل إلى خارج البلاد: <a href="https://policies.google.com/technologies/partner-sites">كيف تستخدم Google المعلومات الواردة من المواقع أو التطبيقات التي تستخدم خدماتها</a>، <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</li>
+<li>لا تُشارَك <strong>أبدًا</strong> مع الشبكة الإعلانية عناوين الصفحات التي تقرؤها، ولا المصادر أو المواقع التي تضيفها، ولا النصوص المترجمة.</li>
+<li>لا تُعرض الإعلانات أبدًا فوق صفحات المانغا أو داخلها؛ ولا يبدأ الإعلان المكافِئ إلا بتأكيد منفصل منك، ولا يكلّفك الرفض أي رصيد على الإطلاق.</li>
+<li>يمكنك تغيير موافقتك أو سحبها في أي وقت من خيارات الخصوصية في التطبيق. <mark class="fill">الإعدادات › الخصوصية › خيارات خصوصية الإعلانات</mark></li>
+</ul>
+<p>تبقى تقارير التشخيص التي ينشئها iOS (MetricKit) على جهازك ولا تغادره إلا إذا شاركتها. وإذا فعّلت خيار "المشاركة مع مطوّري التطبيقات" في iOS، فقد تُرسِل Apple بيانات أعطال مجهولة الهوية إلى المطوّر وفقًا لسياسة Apple الخاصة.</p>
+
+<h3>6. Face ID والإشعارات</h3>
+<p>عند تفعيل قفل التطبيق، يتولّى iOS عملية المصادقة؛ ولا تصل البيانات الحيوية إلى التطبيق أبدًا. وتُنشأ الإشعارات على الجهاز.</p>
+
+<h3>7. حقوقك (KVKK وGDPR)</h3>
+<p>بموجب المادة 11 من القانون التركي رقم 6698 (KVKK) والمواد 15–22 من اللائحة العامة لحماية البيانات في الاتحاد الأوروبي (GDPR)، يحق لك معرفة ما إذا كانت بياناتك تُعالَج، وطلب المعلومات والتصحيح والمحو، والاعتراض على المعالجة، ونقل البيانات. ونظرًا لأن معظم بياناتك موجودة على جهازك فقط، يمكنك إدارتها مباشرةً في التطبيق أو بحذف التطبيق. أما البيانات المُرسَلة إلى خدمات الترجمة التابعة لجهات خارجية أو إلى الشبكة الإعلانية، فيُرجى التواصل مع الخدمة المعنية.</p>
+<p>كما يحق لك تقديم شكوى إلى هيئة حماية البيانات الشخصية التركية أو إلى سلطة حماية البيانات في بلدك.</p>
+<p>المتحكّم في البيانات: Mustafa Rahmi Köprücü (منشأة فردية)<br>
+التواصل: <a href="mailto:chinokko.destek@gmail.com">chinokko.destek@gmail.com</a></p>
+
+<h3>8. الأطفال</h3>
+<p>التطبيق مخصّص للمستخدمين الذين تبلغ أعمارهم 17 عامًا فأكثر (تصنيف العمر في App Store هو 17+). ولا يجوز للمستخدمين دون 17 عامًا استخدام التطبيق إلا بإذن أحد الوالدين أو الوصي القانوني وتحت إشرافه. ولا نجمع عن علم أي بيانات شخصية من الأطفال؛ وإذا كنت تعتقد أن ذلك قد حدث، فتواصل معنا وستُحذف البيانات.</p>
+
+<h3>9. التغييرات</h3>
+<p>قد تُحدَّث هذه السياسة؛ وسيُعلَن عن التغييرات الجوهرية داخل التطبيق.</p>
+</section>
 </div></main>
 <footer class="site"><div class="wrap">
-<p>© 2026 chinokko · <a href="privacy.html">Privacy / Gizlilik</a> · <a href="terms.html">Terms / Koşullar</a> · <a href="support.html">Support / Destek</a> · <a href="copyright.html">Copyright / Telif</a></p>
-<p>This site uses no cookies, analytics or tracking. / Bu sitede çerez, analitik veya izleme yoktur.</p>
+<p>© 2026 chinokko · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a> · <a href="copyright.html">Copyright</a></p>
+<p>This site uses no cookies, analytics or tracking.</p>
 </div></footer>
+<script>
+(function(){var c=["en","tr","de","es","fr","pt-BR","it","ru","ja","ko","zh-CN","id","vi","ar"];
+function sec(){var h=location.hash.slice(1);if(c.indexOf(h)<0){h="";var n=navigator.languages||[navigator.language||"en"];
+for(var i=0;i<n.length&&!h;i++){var l=n[i]||"";if(/^pt/i.test(l))h="pt-BR";else if(/^zh/i.test(l)){if(!/Hant|TW|HK|MO/i.test(l))h="zh-CN"}
+else{l=l.split("-")[0].toLowerCase();if(l==="in")l="id";if(c.indexOf(l)>=0)h=l}}h=h||"en"}
+var s=document.querySelectorAll("section.lang");for(var j=0;j<s.length;j++)s[j].hidden=s[j].id!==h;
+var a=document.querySelectorAll(".langswitch a");for(var k=0;k<a.length;k++){if(a[k].getAttribute("href")==="#"+h)a[k].setAttribute("aria-current","true");else a[k].removeAttribute("aria-current")}
+document.documentElement.lang=h}
+addEventListener("hashchange",sec);sec()})();
+</script>
 </body>
 </html>
